@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import styles from './ProductCard.module.css';
 import { useCart } from '@/lib/CartContext';
+import { useState } from 'react';
 
 interface Product {
     id: string;
@@ -28,6 +29,8 @@ export default function ProductCard({ product }: { product: Product }) {
     const { addToCart } = useCart();
     const oldPrice = product.price * 1.25;
     const firstImage = getFirstImage(product.images || '');
+    const [descExpanded, setDescExpanded] = useState(false);
+    const isLong = (product.description?.length ?? 0) > 80;
 
     return (
         <div className={styles.card}>
@@ -50,7 +53,17 @@ export default function ProductCard({ product }: { product: Product }) {
                     ★★★★★ <span style={{ fontSize: '0.7rem', color: '#757575' }}>(12)</span>
                 </div>
                 {product.description && (
-                    <div className={styles.description}>{product.description}</div>
+                    <div className={descExpanded ? styles.descriptionExpanded : styles.description}>
+                        {product.description}
+                    </div>
+                )}
+                {isLong && (
+                    <button
+                        className={styles.moreBtn}
+                        onClick={(e) => { e.preventDefault(); setDescExpanded(!descExpanded) }}
+                    >
+                        {descExpanded ? 'show less' : '...more'}
+                    </button>
                 )}
             </div>
 

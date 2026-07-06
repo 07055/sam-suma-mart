@@ -120,3 +120,87 @@
 .qBtn:hover {
   background: #c8e6c9;
 }
+
+.userMsg {
+  background: #e8f5e9;
+  padding: 0.75rem;
+  border-radius: 8px 8px 2px 8px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--primary-text);
+  align-self: flex-end;
+  max-width: 90%;
+  margin-left: auto;
+}
+
+.inputArea {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #e8f5e9;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #2e7d32;
+}
+
+.sendBtn {
+  background: linear-gradient(135deg, #2e7d32, #43a047);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.sendBtn:hover {
+  opacity: 0.9;
+}
+
+.productList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.prodBtn {
+  background: white;
+  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  padding: 0.5rem;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+
+.prodBtn:hover {
+  background: #e8f5e9;
+}
+
+.prodBtn strong {
+  display: block;
+  font-size: 0.8rem;
+  color: #2e7d32;
+  margin-bottom: 0.15rem;
+}
+
+.prodBtn span {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--secondary-text);
+}
