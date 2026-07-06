@@ -2,7 +2,7 @@
   {
     "name": "Suma Grand 1 (Cleanser, Lotion, Toner)",
     "slug": "suma-grand-1-cleanser-lotion-toner",
-    "description": "Complete anti-aging skincare set with cleanser, lotion, and toner. Premium quality BF Suma product from the Beauty & Anti-Aging Technology line.",
+    "description": "Complete 3-piece anti-aging skincare system. The facial cleanser gently removes impurities without stripping natural oils, the toner tightens pores and restores pH balance, while the lotion deeply hydrates and nourishes. Ideal for daily use as your foundational skincare routine.",
     "price": 11500,
     "stock": 50,
     "category": "Better Life",
@@ -12,7 +12,7 @@
   {
     "name": "Suma Grand 2 (Cleanser, Lotion, Toner, Facemask Cream)",
     "slug": "suma-grand-2-cleanser-lotion-toner-facemask-cream",
-    "description": "Complete anti-aging skincare set with cleanser, lotion, toner, and facemask cream. Premium quality BF Suma product.",
+    "description": "Premium 4-piece anti-aging skincare system featuring cleanser, toner, lotion, and facemask cream. The facemask cream delivers intensive treatment to rejuvenate and revitalize the skin. Use the mask 2-3 times weekly alongside daily cleanser-toner-lotion routine for comprehensive anti-aging care.",
     "price": 19550,
     "stock": 50,
     "category": "Better Life",
@@ -22,7 +22,7 @@
   {
     "name": "Youth Essence Lotion BF Suma",
     "slug": "youth-essence-lotion-bf-suma",
-    "description": "Anti-aging youth essence lotion. Nourishes and rejuvenates the skin. Premium quality BF Suma product.",
+    "description": "Anti-aging facial lotion enriched with nourishing botanical extracts. Lightweight yet deeply hydrating, it helps reduce fine lines and improve skin elasticity. Apply morning and evening after cleansing for a smoother, more youthful complexion.",
     "price": 3885,
     "stock": 50,
     "category": "Better Life",
@@ -32,7 +32,7 @@
   {
     "name": "Youth Essence Toner",
     "slug": "youth-essence-toner",
-    "description": "Refreshing anti-aging facial toner. Helps tighten pores and restore skin balance. Premium quality BF Suma product.",
+    "description": "Refreshing anti-aging facial toner that tightens pores, removes residual impurities, and restores your skin's natural pH balance. Infused with botanical extracts to prep and prime the skin for better absorption of serums and moisturizers. Apply with a cotton pad after cleansing.",
     "price": 4250,
     "stock": 50,
     "category": "Better Life",
@@ -42,7 +42,7 @@
   {
     "name": "Youth Refreshing Facial Cleanser",
     "slug": "youth-refreshing-facial-cleanser",
-    "description": "Gentle anti-aging facial cleanser. Removes impurities while nourishing the skin. Premium quality BF Suma product.",
+    "description": "Gentle anti-aging facial cleanser that effectively removes makeup, dirt, and excess oil while maintaining your skin's natural moisture barrier. Enriched with nourishing ingredients that leave skin feeling clean, soft, and refreshed. Use twice daily for best results.",
     "price": 3450,
     "stock": 50,
     "category": "Better Life",
@@ -52,7 +52,7 @@
   {
     "name": "BF Suma Feminergy 60 Capsules",
     "slug": "bf-suma-feminergy-60-capsules",
-    "description": "Women's health and wellness supplement. Supports hormonal balance and vitality. 60 capsules. Premium quality BF Suma product.",
+    "description": "Women's wellness supplement formulated to support hormonal balance, energy levels, and overall vitality. Helps manage symptoms associated with monthly cycles and menopause. Contains natural ingredients traditionally used to support female reproductive health. Take 1-2 capsules daily with meals.",
     "price": 4650,
     "stock": 50,
     "category": "Better Life",
@@ -62,7 +62,7 @@
   {
     "name": "BF Suma Prostatrelax Capsules 60's",
     "slug": "bf-suma-prostatrelax-capsules-60-s",
-    "description": "Prostate health support supplement. Promotes healthy urinary function. 60 capsules. Premium quality BF Suma product.",
+    "description": "Prostate health support supplement for men. Helps maintain healthy urinary function, reduce frequent nighttime urination, and support overall prostate wellness. Formulated with natural herbal extracts traditionally used for men's prostate health. Take 1-2 capsules daily.",
     "price": 3750,
     "stock": 50,
     "category": "Better Life",
@@ -72,7 +72,7 @@
   {
     "name": "BF Suma X Power Man Capsules 30 Capsules",
     "slug": "bf-suma-x-power-man-capsules-30-capsules",
-    "description": "Men's vitality and energy booster. Supports stamina and overall performance. 30 capsules. Premium quality BF Suma product.",
+    "description": "Men's vitality and stamina booster designed to enhance physical energy, mental focus, and overall performance. Supports healthy testosterone levels and improves endurance. Ideal for active men looking to maintain peak performance. Take 1 capsule daily with a meal.",
     "price": 6530,
     "stock": 50,
     "category": "Better Life",
@@ -82,7 +82,7 @@
   {
     "name": "Xpower Coffee for Men 8 Sachets",
     "slug": "xpower-coffee-for-men-8-sachets",
-    "description": "Energizing coffee blend for men. Boosts vitality and stamina. 8 sachets. Premium quality BF Suma product.",
+    "description": "Premium instant coffee blend infused with energy-boosting ingredients for men. Each sachet delivers a smooth, rich coffee taste combined with herbal extracts that support stamina and vitality. Simply mix one sachet with hot water for an energizing daily brew. 8 sachets per pack.",
     "price": 2350,
     "stock": 50,
     "category": "Better Life",
@@ -92,7 +92,7 @@
   {
     "name": "Youth Essence Facial Cream",
     "slug": "youth-essence-facial-cream",
-    "description": "Nourishing anti-aging facial cream. Hydrates and rejuvenates for a youthful glow. Premium quality BF Suma product.",
+    "description": "Rich anti-aging facial cream that deeply moisturizes and nourishes the skin. Formulated to reduce the appearance of fine lines and wrinkles while restoring skin firmness and elasticity. Apply generously to face and neck each morning and evening as the final step in your skincare routine.",
     "price": 0,
     "stock": 50,
     "category": "Facial",
@@ -102,7 +102,7 @@
   {
     "name": "Youth Essence Face Mask",
     "slug": "youth-essence-face-mask",
-    "description": "Rejuvenating anti-aging face mask. Deeply nourishes and revitalizes the skin. Premium quality BF Suma product.",
+    "description": "Intensive anti-aging face mask that delivers concentrated nourishment to revitalize tired, dull skin. Helps improve skin texture, boost radiance, and tighten pores. Use 2-3 times per week after cleansing — apply evenly, leave on for 15-20 minutes, then rinse with warm water.",
     "price": 0,
     "stock": 50,
     "category": "Facial",
@@ -112,7 +112,7 @@
   {
     "name": "4-in-1 Ginseng Coffee 20 Sachets",
     "slug": "4-in-1-ginseng-coffee-20-sachets",
-    "description": "Premium ginseng-infused coffee for energy and wellness. 20 sachets. Premium quality BF Suma product.",
+    "description": "Premium instant coffee blend infused with ginseng extract for natural energy and vitality. Each sachet combines rich coffee with ginseng, creamer, and sweetener for a complete 4-in-1 experience. Perfect for a morning boost or afternoon pick-me-up. 20 sachets per pack.",
     "price": 2150,
     "stock": 50,
     "category": "Immunity Builders",
@@ -122,7 +122,7 @@
   {
     "name": "4-in-1 Reishi Coffee 20 Sachets",
     "slug": "4-in-1-reishi-coffee-20-sachets",
-    "description": "Premium reishi mushroom-infused coffee for immunity support. 20 sachets. Premium quality BF Suma product.",
+    "description": "Smooth instant coffee blended with Reishi mushroom extract, known for its immune-supporting and stress-relief properties. Each sachet delivers a complete 4-in-1 mix (coffee, reishi, creamer, sweetener). A great way to support immunity while enjoying your daily coffee. 20 sachets.",
     "price": 2050,
     "stock": 50,
     "category": "Immunity Builders",
@@ -132,7 +132,7 @@
   {
     "name": "4-in-1 Cordyceps Coffee 20 Sachets",
     "slug": "4-in-1-cordyceps-coffee-20-sachets",
-    "description": "Premium cordyceps-infused coffee for energy and stamina. 20 sachets. Premium quality BF Suma product.",
+    "description": "Energizing instant coffee infused with Cordyceps mushroom extract, traditionally used to boost stamina, athletic performance, and oxygen utilization. Each sachet is a complete 4-in-1 blend with creamer and sweetener. Ideal before workouts or for sustained daily energy. 20 sachets.",
     "price": 2250,
     "stock": 50,
     "category": "Immunity Builders",
@@ -142,7 +142,7 @@
   {
     "name": "Pure & Broken Ganoderma Oil 60 Capsules Deluxe",
     "slug": "pure-broken-ganoderma-oil-60-capsules-deluxe",
-    "description": "Premium ganoderma oil supplement for immune support. 60 capsules deluxe edition. Premium quality BF Suma product.",
+    "description": "Deluxe Ganoderma (Reishi) oil supplement in softgel form. Extracted from pure and broken Ganoderma spores, this oil is rich in triterpenoids and antioxidants that support immune function, reduce inflammation, and promote overall wellness. The deluxe formulation offers enhanced bioavailability. Take 1-2 capsules daily.",
     "price": 19865,
     "stock": 50,
     "category": "Immunity Builders",
@@ -152,7 +152,7 @@
   {
     "name": "Pure & Broken Ganoderma Spore Capsules",
     "slug": "pure-broken-ganoderma-spore-capsules",
-    "description": "High-potency ganoderma spore supplement for immune system support. Premium quality BF Suma product.",
+    "description": "High-potency Ganoderma spore supplement with broken cell-wall technology for maximum absorption. Ganoderma (Reishi) spores are prized in traditional wellness for their immune-modulating, anti-aging, and antioxidant properties. Each capsule delivers concentrated spore powder. Take 1-2 capsules daily with meals.",
     "price": 17100,
     "stock": 50,
     "category": "Immunity Builders",
@@ -162,7 +162,7 @@
   {
     "name": "Quad Reishi Capsules 60 Capsules",
     "slug": "quad-reishi-capsules-60-capsules",
-    "description": "Premium reishi mushroom supplement for immunity and wellness. 60 capsules. Premium quality BF Suma product.",
+    "description": "Premium Reishi mushroom supplement combining four synergistic Reishi extracts for comprehensive immune support. Supports natural killer cell activity, helps manage stress, and promotes restful sleep. A cornerstone supplement for daily immune maintenance. Take 1-2 capsules daily.",
     "price": 5000,
     "stock": 50,
     "category": "Immunity Builders",
@@ -172,7 +172,7 @@
   {
     "name": "Refined Yunzhi Essence 60 Capsules",
     "slug": "refined-yunzhi-essence-60-capsules",
-    "description": "Premium Yunzhi (turkey tail mushroom) essence supplement. Supports immune health. 60 capsules. Premium quality BF Suma product.",
+    "description": "Premium Yunzhi (Coriolus versicolor / Turkey Tail mushroom) essence supplement. Yunzhi is one of the most researched medicinal mushrooms, known for powerful immune-modulating properties and antioxidant support. This refined essence formulation offers concentrated benefits. A premium choice for serious immune health support. 60 capsules.",
     "price": 74500,
     "stock": 50,
     "category": "Immunity Builders",
@@ -182,7 +182,7 @@
   {
     "name": "NMN Coffee 20 Sachets",
     "slug": "nmn-coffee-20-sachets",
-    "description": "Premium NMN-infused coffee for anti-aging and cellular energy. 20 sachets. Premium quality BF Suma product.",
+    "description": "Premium coffee infused with NMN (Nicotinamide Mononucleotide), the anti-aging molecule that boosts NAD+ levels in the body. NMN supports cellular energy production, DNA repair, and healthy aging. Each sachet combines rich coffee flavor with the benefits of NMN. 20 sachets per pack.",
     "price": 3885,
     "stock": 50,
     "category": "Premium Selected",
@@ -192,7 +192,7 @@
   {
     "name": "NMN Duo Release 30 Tablets",
     "slug": "nmn-duo-release-30-tablets",
-    "description": "Advanced NMN supplement with dual-release technology for sustained anti-aging benefits. 30 tablets. Premium quality BF Suma product.",
+    "description": "Advanced NMN supplement featuring dual-release technology for sustained NAD+ elevation. The immediate-release layer provides a quick boost, while the extended-release layer ensures prolonged benefits throughout the day. Supports cellular energy, metabolism, and healthy aging. Take 1 tablet daily with water.",
     "price": 23130,
     "stock": 50,
     "category": "Premium Selected",
@@ -202,7 +202,7 @@
   {
     "name": "NMN Share Mind 60 Capsules",
     "slug": "nmn-share-mind-60-capsules",
-    "description": "NMN brain health supplement for cognitive function and mental clarity. 60 capsules. Premium quality BF Suma product.",
+    "description": "Brain-focused NMN supplement designed to support cognitive function, memory retention, and mental clarity. Combines NMN with nutrients that support brain health and neurotransmitter function. Helps maintain sharp focus and mental acuity as you age. Take 1-2 capsules daily.",
     "price": 24830,
     "stock": 50,
     "category": "Premium Selected",
@@ -212,7 +212,7 @@
   {
     "name": "Youth Ever Anti-Aging Supplement",
     "slug": "youth-ever-anti-aging-supplement",
-    "description": "Premium anti-aging supplement for youthful vitality and longevity. Premium quality BF Suma product.",
+    "description": "Comprehensive anti-aging supplement formulated to support youthful vitality from within. Targets key aging pathways with a blend of antioxidants, NAD+ precursors, and cellular rejuvenators. Helps maintain energy, skin health, and overall wellness. Take as directed on the packaging for best results.",
     "price": 15370,
     "stock": 50,
     "category": "Premium Selected",
@@ -222,7 +222,7 @@
   {
     "name": "Arthroxtra BF Suma 60 Tablets",
     "slug": "arthroxtra-bf-suma-60-tablets",
-    "description": "Joint health and mobility supplement. Supports cartilage and reduces joint discomfort. 60 tablets. Premium quality BF Suma product.",
+    "description": "Joint health supplement formulated to support cartilage integrity and reduce joint discomfort. Contains glucosamine, chondroitin, and herbal extracts that work together to improve mobility and flexibility. Ideal for active individuals and those with age-related joint concerns. Take 1-2 tablets daily with meals.",
     "price": 6250,
     "stock": 50,
     "category": "Sport Fit",
@@ -232,7 +232,7 @@
   {
     "name": "Gluzojoint Ultra Pro 4-in-1 60 Tablets",
     "slug": "gluzojoint-ultra-pro-4-in-1-60-tablets",
-    "description": "Advanced joint care formula with 4-in-1 action. Supports bone and joint health. 60 tablets. Premium quality BF Suma product.",
+    "description": "Advanced 4-in-1 joint care formula combining glucosamine, chondroitin, MSM, and herbal anti-inflammatory extracts. Provides comprehensive support for joint lubrication, cartilage repair, and reduced stiffness. The Ultra Pro formulation is designed for those with active lifestyles or significant joint discomfort. Take 2 tablets daily.",
     "price": 6350,
     "stock": 50,
     "category": "Sport Fit",
@@ -242,7 +242,7 @@
   {
     "name": "Gluzojoint-F 60 Capsules",
     "slug": "gluzojoint-f-60-capsules",
-    "description": "Joint care supplement for flexibility and mobility. 60 capsules. Premium quality BF Suma product.",
+    "description": "Joint flexibility supplement focused on maintaining healthy cartilage and synovial fluid. A lighter alternative to the Ultra Pro formula, ideal for daily maintenance of joint health and mobility. Supports comfortable range of motion in knees, hips, and hands. Take 1 capsule daily.",
     "price": 4350,
     "stock": 50,
     "category": "Sport Fit",
@@ -252,17 +252,17 @@
   {
     "name": "ZaminoCal Plus Capsules 60 Capsules",
     "slug": "zaminocal-plus-capsules-60-capsules",
-    "description": "Calcium and mineral supplement for bone health. 60 capsules. Premium quality BF Suma product.",
+    "description": "Bone health supplement combining calcium, zinc, and amino acids for optimal bone density and strength. Supports healthy teeth, nails, and bone mineralization. Particularly beneficial for women, older adults, and those at risk of osteoporosis. Take 1-2 capsules daily with meals.",
     "price": 3570,
     "stock": 50,
     "category": "Sport Fit",
-    "images": "/uploads/bf%20suma%20photos/sport%20fit/bone%20&%20Joint%20Care/ZaminoCal™%20Plus%20Capsules%2060%20capsules%20-%20ksh%203,570.jpg",
+    "images": "/uploads/bf%20suma%20photos/sport%20fit/bone%20&%20Joint%20Care/ZaminoCal%E2%84%A2%20Plus%20Capsules%2060%20capsules%20-%20ksh%203,570.jpg",
     "featured": false
   },
   {
     "name": "BF Suma Relivin Tea 20 Sachets",
     "slug": "bf-suma-relivin-tea-20-sachets",
-    "description": "Revitalizing herbal tea for cardiovascular health and energy. 20 sachets. Premium quality BF Suma product.",
+    "description": "Revitalizing herbal tea blend formulated to support cardiovascular health and circulation. Infused with botanical ingredients traditionally used to maintain healthy blood pressure and cholesterol levels. Enjoy a warm, soothing cup daily as part of your heart health routine. 20 tea sachets per pack.",
     "price": 2800,
     "stock": 50,
     "category": "Sport Fit",
@@ -272,7 +272,7 @@
   {
     "name": "Cerebrain Tablets 60 Tablets",
     "slug": "cerebrain-tablets-60-tablets",
-    "description": "Brain health supplement for cognitive function, memory, and mental clarity. 60 tablets. Premium quality BF Suma product.",
+    "description": "Brain health supplement designed to enhance cognitive function, sharpen memory, and improve mental clarity. Formulated with nutrients that support neurotransmitter production and cerebral circulation. Ideal for students, professionals, and seniors looking to maintain brain health. Take 1-2 tablets daily.",
     "price": 3885,
     "stock": 50,
     "category": "Sport Fit",
@@ -282,7 +282,7 @@
   {
     "name": "Micro2 Cycle Tablets 100 Tablets",
     "slug": "micro2-cycle-tablets-100-tablets",
-    "description": "Circulation and cardiovascular health supplement. Supports heart and blood vessel function. 100 tablets. Premium quality BF Suma product.",
+    "description": "Circulation support supplement formulated to promote healthy blood flow and cardiovascular function. Helps maintain flexible blood vessels and optimal oxygen delivery throughout the body. Supports heart health and peripheral circulation. 100 tablets for extended use. Take 1-2 tablets daily.",
     "price": 3450,
     "stock": 50,
     "category": "Sport Fit",
@@ -292,7 +292,7 @@
   {
     "name": "BF GymEffect Capsules 60 Capsules",
     "slug": "bf-gymeffect-capsules-60-capsules",
-    "description": "Pre-workout and fitness supplement for energy, focus, and performance. 60 capsules. Premium quality BF Suma product.",
+    "description": "Pre-workout fitness supplement designed to boost energy, focus, and physical performance. Supports increased stamina, faster recovery, and enhanced muscle pump during workouts. Contains natural ingredients that promote fat metabolism and lean muscle development. Take 1 capsule 30 minutes before exercise.",
     "price": 3200,
     "stock": 50,
     "category": "Sport Fit",
@@ -302,7 +302,7 @@
   {
     "name": "Detoxilive Capsules 60 Capsules",
     "slug": "detoxilive-capsules-60-capsules",
-    "description": "Liver detox and cleansing supplement. Supports natural detoxification processes. 60 capsules. Premium quality BF Suma product.",
+    "description": "Liver detoxification supplement that supports the body's natural cleansing processes. Helps eliminate toxins, supports liver enzyme function, and promotes healthy digestion. Ideal after periods of poor diet, medication use, or alcohol consumption. Take 1-2 capsules daily with plenty of water.",
     "price": 2350,
     "stock": 50,
     "category": "Sport Fit",
@@ -312,7 +312,7 @@
   {
     "name": "BF Suma Calcium & Vitamin D3 Strawberry Flavour",
     "slug": "bf-suma-calcium-vitamin-d3-strawberry",
-    "description": "Children's calcium and vitamin D3 supplement in delicious strawberry flavour. Supports strong bones and teeth. Premium quality BF Suma product.",
+    "description": "Children's chewable calcium and vitamin D3 supplement in a delicious strawberry flavour. Supports the development of strong bones and teeth during growth years. Vitamin D3 enhances calcium absorption for maximum benefit. Perfect for picky eaters who may not get enough calcium from diet alone.",
     "price": 3750,
     "stock": 50,
     "category": "Suma Baby",
@@ -322,7 +322,7 @@
   {
     "name": "BF Suma Vitamin C 100mg Chewable Tablet",
     "slug": "bf-suma-vitamin-c-100mg-chewable-tablet",
-    "description": "Children's vitamin C supplement in chewable tablet form. Supports immune health. 100mg. Premium quality BF Suma product.",
+    "description": "Children's chewable vitamin C supplement (100mg per tablet). Supports immune system health, helps fight off colds and infections, and aids in iron absorption. The chewable format makes it easy and enjoyable for children to take daily. Delicious flavour kids love.",
     "price": 3150,
     "stock": 50,
     "category": "Suma Baby",
@@ -332,7 +332,7 @@
   {
     "name": "Sharp Vision Eye Health Chewable Tablets 90 Tablets",
     "slug": "sharp-vision-eye-health-chewable-tablets-90",
-    "description": "Eye health supplement for children. Supports healthy vision and reduces digital eye strain. 90 chewable tablets. Premium quality BF Suma product.",
+    "description": "Children's eye health supplement in chewable tablet form. Formulated with lutein, zeaxanthin, and essential vitamins that support healthy vision and protect against digital eye strain from screen time. 90 tablets for a full course. Recommended for school-age children and teens.",
     "price": 3750,
     "stock": 50,
     "category": "Suma Baby",
@@ -342,7 +342,7 @@
   {
     "name": "BF Suma ConstiRelax Oral Solution",
     "slug": "bf-suma-constirelax-oral-solution",
-    "description": "Digestive health oral solution for relief from constipation. Promotes regular bowel movement. Premium quality BF Suma product.",
+    "description": "Gentle oral solution for relief from constipation and irregular bowel movements. Works naturally to stimulate bowel activity without harsh laxative effects. Suitable for adults and children. The liquid formulation is easy to take and fast-acting. Take as directed on the packaging.",
     "price": 4500,
     "stock": 50,
     "category": "Suma Digsetive Health",
@@ -352,7 +352,7 @@
   {
     "name": "BF Suma Ez Xlim Tablets 90 Tablets",
     "slug": "bf-suma-ez-xlim-tablets-90-tablets",
-    "description": "Weight management supplement. Supports healthy metabolism and appetite control. 90 tablets. Premium quality BF Suma product.",
+    "description": "Weight management supplement that supports healthy metabolism and appetite control. Formulated with natural ingredients that help burn fat, reduce cravings, and boost energy levels. Best used alongside a balanced diet and regular exercise. 90 tablets for a comprehensive weight management program. Take 1-2 tablets before meals.",
     "price": 8075,
     "stock": 50,
     "category": "Suma Digsetive Health",
@@ -362,7 +362,7 @@
   {
     "name": "Novel Depile Capsules BF Suma 60 Tablets",
     "slug": "novel-depile-capsules-bf-suma-60-tablets",
-    "description": "Digestive health supplement for gut wellness and regularity. 60 tablets. Premium quality BF Suma product.",
+    "description": "Digestive wellness supplement that supports healthy gut function and regular elimination. Helps relieve bloating, indigestion, and occasional stomach discomfort. Formulated with herbal extracts traditionally used to soothe the digestive tract. 60 tablets. Take 1-2 tablets daily after meals.",
     "price": 3450,
     "stock": 50,
     "category": "Suma Digsetive Health",
@@ -372,7 +372,7 @@
   {
     "name": "Probio3 BF Suma",
     "slug": "probio3-bf-suma",
-    "description": "Probiotic supplement for digestive health and gut flora balance. Supports healthy digestion. Premium quality BF Suma product.",
+    "description": "Triple-strain probiotic supplement that supports a healthy gut microbiome. Helps improve digestion, boost immune function, and maintain regular bowel movements. Each serving delivers beneficial bacteria to restore and maintain gut flora balance. Ideal after antibiotic use or for general digestive wellness. Take 1 capsule daily.",
     "price": 3000,
     "stock": 50,
     "category": "Suma Digsetive Health",
@@ -382,7 +382,7 @@
   {
     "name": "Veggie Veggie BF Suma 15 Sachets",
     "slug": "veggie-veggie-bf-suma-15-sachets",
-    "description": "Fruit and vegetable extract supplement for daily nutrition. 15 sachets. Premium quality BF Suma product.",
+    "description": "Convenient fruit and vegetable extract supplement that helps bridge nutritional gaps in your daily diet. Each sachet provides concentrated phytonutrients, vitamins, and antioxidants from a variety of plant sources. Simply mix with water for a quick daily nutrition boost. 15 sachets per pack.",
     "price": 4650,
     "stock": 50,
     "category": "Suma Digsetive Health",
@@ -392,7 +392,7 @@
   {
     "name": "BF Suma Anatic Herbal Essence Soap",
     "slug": "bf-suma-anatic-herbal-essence-soap",
-    "description": "Natural herbal soap for gentle cleansing and skin care. Made with premium botanical ingredients. Premium quality BF Suma product.",
+    "description": "Natural herbal soap bar crafted with botanical extracts for gentle yet effective cleansing. Helps maintain healthy skin while addressing common skin concerns like acne, eczema, and dryness. Free from harsh chemicals. Suitable for face and body use. A single bar lasts several weeks with daily use.",
     "price": 345,
     "stock": 50,
     "category": "Suma Self Care",
@@ -402,7 +402,7 @@
   {
     "name": "BF Suma CoolRoll Oil",
     "slug": "bf-suma-coolroll-oil",
-    "description": "Cooling massage oil for muscle and joint relief. Easy roll-on application. Premium quality BF Suma product.",
+    "description": "Cooling massage oil with convenient roll-on applicator for targeted relief of muscle aches, joint pain, and tension. The cooling sensation soothes inflammation while the roll-on design allows mess-free application directly to sore areas. Perfect for post-workout recovery or everyday muscle discomfort. 50ml roll-on bottle.",
     "price": 1870,
     "stock": 50,
     "category": "Suma Self Care",
@@ -412,7 +412,7 @@
   {
     "name": "BF Suma Femicare Feminine Cleanser",
     "slug": "bf-suma-femicare-feminine-cleanser",
-    "description": "Gentle feminine hygiene cleanser. Maintains intimate health and freshness. Premium quality BF Suma product.",
+    "description": "Gentle feminine hygiene cleanser formulated with natural botanical extracts to maintain intimate health and freshness. pH-balanced and free from harsh irritants. Helps prevent infections and discomfort while providing a gentle, refreshing clean. Suitable for daily use.",
     "price": 1750,
     "stock": 50,
     "category": "Suma Self Care",
@@ -422,7 +422,7 @@
   {
     "name": "Dr. Ts Toothpaste",
     "slug": "dr-ts-toothpaste",
-    "description": "Natural herbal toothpaste for oral care. Fights plaque and promotes healthy gums. Premium quality BF Suma product.",
+    "description": "Natural herbal toothpaste formulated with plant-based ingredients to clean teeth, fight plaque, and promote healthy gums. Contains soothing herbal extracts that help reduce gum inflammation and sensitivity. Free from fluoride and artificial additives. Leaves your mouth feeling fresh and clean.",
     "price": 855,
     "stock": 50,
     "category": "Suma Self Care",

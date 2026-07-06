@@ -9,6 +9,7 @@ interface Product {
     category: string;
     price: number;
     images: string | string[];
+    description?: string;
 }
 
 interface ProductGridProps {

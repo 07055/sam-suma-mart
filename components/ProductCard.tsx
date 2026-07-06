@@ -11,6 +11,7 @@ interface Product {
     price: number;
     category: string;
     images: string | string[];
+    description?: string;
 }
 
 function getFirstImage(images: string | string[]): string {
@@ -48,6 +49,9 @@ export default function ProductCard({ product }: { product: Product }) {
                 <div className={styles.rating}>
                     ★★★★★ <span style={{ fontSize: '0.7rem', color: '#757575' }}>(12)</span>
                 </div>
+                {product.description && (
+                    <div className={styles.description}>{product.description}</div>
+                )}
             </div>
 
             <button

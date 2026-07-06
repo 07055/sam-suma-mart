@@ -1,0 +1,122 @@
+.container {
+  position: fixed;
+  bottom: 2rem;
+  right: calc(2rem + 70px);
+  z-index: 1001;
+}
+
+.fab {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2e7d32, #43a047);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fab:hover {
+  transform: scale(1.1);
+}
+
+.panel {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  width: 320px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: 450px;
+}
+
+.header {
+  background: linear-gradient(135deg, #2e7d32, #43a047);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTitle {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.messages {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.botMsg {
+  background: #f1f8e9;
+  padding: 0.75rem;
+  border-radius: 8px 8px 8px 2px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--primary-text);
+  align-self: flex-start;
+  max-width: 90%;
+}
+
+.botMsg strong {
+  color: #2e7d32;
+}
+
+.quickReplies {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #e8f5e9;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.quickLabel {
+  font-size: 0.7rem;
+  color: var(--secondary-text);
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.qBtn {
+  background: #f1f8e9;
+  border: 1px solid #c8e6c9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: #2e7d32;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+  font-family: inherit;
+}
+
+.qBtn:hover {
+  background: #c8e6c9;
+}

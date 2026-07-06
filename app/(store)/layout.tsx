@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { CartProvider } from "@/lib/CartContext";
 import WhatsAppHelp from "@/components/WhatsAppHelp";
+import ChatBot from "@/components/ChatBot";
 
 export const dynamic = 'force-dynamic'
 
@@ -16,6 +17,7 @@ export default function StoreLayout({
       <main style={{ minHeight: '80vh' }}>{children}</main>
       <Footer />
       <WhatsAppHelp />
+      <ChatBot />
     </CartProvider>
   );
 }
