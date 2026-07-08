@@ -37,8 +37,9 @@ export default function ProductCard({ product }: { product: Product }) {
             <Link href={`/products/${product.slug}`} className={styles.imageContainer}>
                 <img
                     src={firstImage}
-                    alt={product.name}
+                    alt={`${product.name} – BF Suma ${product.category} Kenya`}
                     className={styles.image}
+                    loading="lazy"
                 />
                 <div className={styles.discountBadge}>-25%</div>
             </Link>

@@ -2,15 +2,26 @@ import ProductGrid from "@/components/ProductGrid";
 import CategoryAccordion from "@/components/CategoryAccordion";
 import { getPrisma } from "@/lib/prisma";
 import type { Metadata } from "next";
+import { collectionPageSchema } from "@/lib/seo";
 
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: "Shop All Products",
-  description: "Browse our full catalog of medical supplies, healthcare products, and BF Suma products. Find surgical supplies, first aid kits, and more.",
+  title: "Buy BF Suma Products Online Kenya – Shop All Categories",
+  description: "Browse the full catalog of authentic BF Suma products in Kenya. Anti-aging skincare, immunity builders, NMN supplements, joint care, digestive health & more. Order online for fast delivery.",
   openGraph: {
-    title: "Shop All Products | Sam's Suma Mart",
-    description: "Browse our full catalog of medical supplies, healthcare products, and BF Suma products.",
+    title: "Buy BF Suma Products Online Kenya – Shop All Categories | Sam's Suma Mart",
+    description: "Browse the full catalog of authentic BF Suma products in Kenya. Anti-aging skincare, immunity builders, NMN supplements, joint care, digestive health & more. Order online for fast delivery.",
+    images: [{ url: '/logo.svg', width: 200, height: 200 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Buy BF Suma Products Online Kenya – Shop All Categories | Sam's Suma Mart",
+    description: "Browse the full catalog of authentic BF Suma products in Kenya. Anti-aging skincare, immunity builders, NMN supplements, joint care, digestive health & more. Order online for fast delivery.",
+    images: ['/logo.svg'],
+  },
+  alternates: {
+    canonical: '/shop',
   },
 }
 
@@ -20,6 +31,10 @@ export default async function ShopPage({ searchParams }: { searchParams: Promise
     const category = params.category;
 
     const prisma = getPrisma()
+    const collectionJson = collectionPageSchema(
+      query ? `Search: "${query}"` : category ? category : 'Shop All Products',
+      "Browse our full catalog of medical supplies, healthcare products, and BF Suma products."
+    )
 
     const allCategories = await prisma.product.findMany({
         select: { category: true },
@@ -47,6 +62,10 @@ export default async function ShopPage({ searchParams }: { searchParams: Promise
 
     return (
         <div className="container" style={{ padding: '2rem 0' }}>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJson) }}
+            />
             <div className="shop-layout">
                 {/* Sidebar - Categories */}
                 <div className="shop-sidebar">

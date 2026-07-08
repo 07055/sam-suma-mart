@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { aboutPageSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -6,11 +7,27 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Sam's Suma Mart",
     description: "Learn about Sam's Suma Mart — your trusted source for quality medical supplies and healthcare products in Kenya.",
+    images: [{ url: '/logo.svg', width: 200, height: 200 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "About Sam's Suma Mart",
+    description: "Learn about Sam's Suma Mart — your trusted source for quality medical supplies and healthcare products in Kenya.",
+    images: ['/logo.svg'],
+  },
+  alternates: {
+    canonical: '/story',
   },
 }
 
 export default function StoryPage() {
+    const aboutJson = aboutPageSchema()
     return (
+        <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJson) }}
+        />
         <div className="container" style={{ padding: '8rem 0', maxWidth: '800px' }}>
             <h1 style={{ marginBottom: '2rem' }}>About Sam's Suma Mart</h1>
             <p style={{ fontSize: '1.25rem', lineHeight: '1.8', color: '#444', marginBottom: '2rem' }}>
@@ -28,5 +45,6 @@ export default function StoryPage() {
                 — because your health matters.
             </p>
         </div>
+        </>
     );
 }

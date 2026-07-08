@@ -2,20 +2,32 @@ import ProductGrid from "@/components/ProductGrid";
 import HeroSlider from "@/components/HeroSlider";
 import { getPrisma } from "@/lib/prisma";
 import type { Metadata } from "next";
+import { websiteSchema } from "@/lib/seo";
 
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: "Sam's Suma Mart (SSM) | Medical Supplies & Healthcare Products",
-  description: "Shop quality medical supplies, healthcare products, and BF Suma products in Kenya. Fast delivery across Nairobi and all counties.",
+  title: "BF Suma Products Kenya – Buy Health & Wellness Online",
+  description: "Kenya's trusted online store for authentic BF Suma products. Shop anti-aging skincare, NMN anti-aging supplements, Reishi coffee, joint care & more. Order now for delivery across Nairobi & all Kenyan counties.",
   openGraph: {
-    title: "Sam's Suma Mart (SSM) | Medical Supplies & Healthcare Products",
-    description: "Shop quality medical supplies, healthcare products, and BF Suma products in Kenya. Fast delivery across Nairobi and all counties.",
+    title: "BF Suma Products Kenya – Buy Health & Wellness Online | Sam's Suma Mart",
+    description: "Kenya's trusted online store for authentic BF Suma products. Shop anti-aging skincare, NMN supplements, Reishi coffee, joint care & more. Order now for delivery across Nairobi & all Kenyan counties.",
+    images: [{ url: '/logo.svg', width: 200, height: 200 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "BF Suma Products Kenya – Buy Health & Wellness Online | Sam's Suma Mart",
+    description: "Kenya's trusted online store for authentic BF Suma products. Shop anti-aging skincare, NMN supplements, Reishi coffee, joint care & more. Order now for delivery across Nairobi & all Kenyan counties.",
+    images: ['/logo.svg'],
+  },
+  alternates: {
+    canonical: '/',
   },
 }
 
 export default async function Home() {
   const prisma = getPrisma()
+  const webJson = websiteSchema()
 
   const products = await prisma.product.findMany({
     orderBy: { createdAt: 'desc' },
@@ -31,6 +43,10 @@ export default async function Home() {
 
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webJson) }}
+      />
       <HeroSlider />
 
       <div className="container" style={{ padding: '2rem 0' }}>

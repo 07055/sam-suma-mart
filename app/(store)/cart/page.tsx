@@ -37,7 +37,7 @@ export default function CartPage() {
                             <div className="cart-item-image" style={{ background: '#fff', borderRadius: '4px', overflow: 'hidden' }}>
                                 <img
                                     src={item.images?.[0] || '/placeholder.jpg'}
-                                    alt={item.name}
+                                    alt={`${item.name} – BF Suma Kenya`}
                                     style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                                 />
                             </div>

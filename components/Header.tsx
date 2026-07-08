@@ -21,8 +21,10 @@ export default async function Header() {
         <div className={styles.topBarInner}>
           <span>🇰🇪 Kenya</span>
           <div className={styles.topBarLinks}>
+            <a href="/bf-suma-products">BF Suma Products</a>
+            <a href="/shop">Shop All</a>
             <a href="https://wa.me/254796388790" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
-            <a href="/story">Help</a>
+            <a href="/story">About</a>
           </div>
         </div>
       </div>

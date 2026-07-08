@@ -37,8 +37,9 @@ export default function ProductDetail({ product, relatedProducts }: ProductDetai
         <div style={{ background: '#f5f5f5', borderRadius: '8px', overflow: 'hidden' }}>
           <img
             src={getFirstImage(product.images)}
-            alt={product.name}
+            alt={`${product.name} – BF Suma ${product.category} Kenya`}
             style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+            loading="lazy"
           />
         </div>
 
@@ -74,7 +75,7 @@ export default function ProductDetail({ product, relatedProducts }: ProductDetai
               <Link key={prod.id} href={`/products/${prod.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                 <div className={styles.card}>
                   <div className={styles.imageContainer}>
-                    <img src={getFirstImage(prod.images)} alt={prod.name} className={styles.image} />
+                    <img src={getFirstImage(prod.images)} alt={`${prod.name} – BF Suma ${prod.category} Kenya`} className={styles.image} loading="lazy" />
                   </div>
                   <div className={styles.details}>
                     <div className={styles.name}>{prod.name}</div>

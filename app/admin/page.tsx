@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import CloudinaryUpload from '@/components/CloudinaryUpload'
 
@@ -64,6 +64,37 @@ export default function AdminPage() {
   const [products, setProducts] = useState<Product[]>([])
   const [customers, setCustomers] = useState<Customer[]>([])
   const [loading, setLoading] = useState(true)
+  const [notif, setNotif] = useState<string | null>(null)
+  const [newOrderCount, setNewOrderCount] = useState(0)
+  const prevOrderIds = useRef<Set<string>>(new Set())
+
+  function playChime() {
+    try {
+      const ctx = new (window.AudioContext || (window as any).webkitAudioContext)()
+      const osc = ctx.createOscillator()
+      const gain = ctx.createGain()
+      osc.connect(gain)
+      gain.connect(ctx.destination)
+      osc.frequency.value = 880
+      osc.type = 'sine'
+      gain.gain.setValueAtTime(0.3, ctx.currentTime)
+      gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.6)
+      osc.start(ctx.currentTime)
+      osc.stop(ctx.currentTime + 0.6)
+    } catch {}
+  }
+
+  function checkNewOrders(latest: Order[]) {
+    if (prevOrderIds.current.size > 0 && latest.length > prevOrderIds.current.size) {
+      const newOnes = latest.filter(o => !prevOrderIds.current.has(o.id))
+      if (newOnes.length > 0) {
+        setNewOrderCount(prev => prev + newOnes.length)
+        setNotif(`🛎️ ${newOnes.length} new order${newOnes.length > 1 ? 's' : ''} from ${newOnes.map(o => o.customerName).join(', ')}`)
+        playChime()
+      }
+    }
+    prevOrderIds.current = new Set(latest.map(o => o.id))
+  }
 
   useEffect(() => {
     fetch('/api/auth/me')
@@ -86,11 +117,27 @@ export default function AdminPage() {
       fetch('/api/admin/products').then(r => r.json()),
       fetch('/api/admin/customers').then(r => r.json()),
     ]).then(([ordersData, productsData, customersData]) => {
-      setOrders(ordersData.orders || [])
+      const ords = ordersData.orders || []
+      setOrders(ords)
       setProducts(productsData.products || [])
       setCustomers(customersData.customers || [])
       setLoading(false)
+      prevOrderIds.current = new Set(ords.map((o: Order) => o.id))
     }).catch(() => setLoading(false))
+  }, [authorized])
+
+  useEffect(() => {
+    if (!authorized) return
+    const interval = setInterval(async () => {
+      try {
+        const res = await fetch('/api/admin/orders')
+        const data = await res.json()
+        const latest = data.orders || []
+        setOrders(latest)
+        checkNewOrders(latest)
+      } catch {}
+    }, 30000)
+    return () => clearInterval(interval)
   }, [authorized])
 
   async function markDelivered(orderId: string) {
@@ -127,6 +174,16 @@ export default function AdminPage() {
 
   return (
       <div className="container" style={{ padding: '2rem 0' }}>
+        {notif && (
+          <div style={{ background: '#fff3cd', color: '#856404', padding: '0.75rem 1rem', borderRadius: '8px', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.9rem', fontWeight: '600', border: '1px solid #ffc107' }}>
+            <span>{notif}</span>
+            <button onClick={() => { setNotif(null); setNewOrderCount(0); setView('orders') }} style={{ background: '#856404', color: 'white', border: 'none', padding: '0.3rem 0.8rem', borderRadius: '4px', cursor: 'pointer', fontSize: '0.75rem', fontWeight: '600' }}>
+              View Orders
+            </button>
+            <button onClick={() => { setNotif(null); setNewOrderCount(0) }} style={{ background: 'none', border: 'none', color: '#856404', fontSize: '1.2rem', cursor: 'pointer', padding: '0', lineHeight: '1' }}>✕</button>
+          </div>
+        )}
+
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
           <h1 style={{ fontSize: '1.5rem', fontWeight: '700' }}>Admin Dashboard</h1>
           <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
@@ -139,14 +196,18 @@ export default function AdminPage() {
         {/* Navigation Tabs */}
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '2rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem' }}>
           {(['dashboard', 'orders', 'customers', 'products'] as PageView[]).map(tab => (
-            <button key={tab} onClick={() => setView(tab)} style={{
+            <button key={tab} onClick={() => { setView(tab); if (tab === 'orders') { setNewOrderCount(0) } }} style={{
               padding: '0.5rem 1.2rem', border: 'none', borderRadius: '6px 6px 0 0',
               background: view === tab ? '#2e7d32' : 'transparent',
               color: view === tab ? 'white' : '#666',
               fontWeight: view === tab ? '700' : '400',
-              cursor: 'pointer', fontSize: '0.9rem', textTransform: 'capitalize'
+              cursor: 'pointer', fontSize: '0.9rem', textTransform: 'capitalize',
+              position: 'relative',
             }}>
               {tab === 'dashboard' ? 'Overview' : tab}
+              {tab === 'orders' && newOrderCount > 0 && (
+                <span style={{ position: 'absolute', top: '-4px', right: '-4px', background: '#dc3545', color: 'white', fontSize: '0.65rem', fontWeight: '700', padding: '2px 5px', borderRadius: '10px', lineHeight: '1' }}>{newOrderCount}</span>
+              )}
             </button>
           ))}
         </div>
