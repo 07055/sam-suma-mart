@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-sitemap.cjs",
     "build": "npx prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
@@ -18,11 +19,16 @@
     "@prisma/adapter-pg": "^7.8.0",
     "@types/bcryptjs": "^2.4.6",
     "bcryptjs": "^3.0.3",
+    "gray-matter": "^4.0.3",
     "next": "^15.5.18",
     "pg": "^8.20.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "recharts": "^3.8.1"
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.8.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-stringify": "^10.0.1",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@prisma/client": "^5.22.0",
