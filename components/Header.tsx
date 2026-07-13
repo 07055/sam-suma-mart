@@ -23,6 +23,7 @@ export default async function Header() {
           <div className={styles.topBarLinks}>
             <a href="/bf-suma-products">BF Suma Products</a>
             <a href="/shop">Shop All</a>
+            <a href="/blog">Blog</a>
             <a href="https://wa.me/254796388790" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
             <a href="/story">About</a>
           </div>
@@ -40,7 +41,7 @@ export default async function Header() {
           <input
             type="text"
             name="q"
-            placeholder="Search medical products..."
+            placeholder="Search supplements, skincare & more..."
             className={styles.searchInput}
           />
           <button type="submit" className={styles.searchBtn} aria-label="Search">

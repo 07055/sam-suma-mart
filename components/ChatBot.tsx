@@ -160,7 +160,7 @@ const symptomMap: SymptomMatch[] = [
 
 const faq: Record<string, string> = {
   'What products do you sell?':
-    'We sell <strong>medical supplies, healthcare products, and BF Suma wellness products</strong> including skincare, joint pain relief, surgical supplies, first aid kits, and more.',
+    'We sell <strong>authentic BF Suma health and wellness products</strong> including anti-aging skincare, NMN supplements, joint care, immune support, digestive health, and more.',
   'Do you deliver?':
     'Yes! We deliver across <strong>Nairobi and all counties in Kenya</strong>. Delivery times vary by location — typically 1–3 days within Nairobi and 3–7 days upcountry.',
   'What payment methods do you accept?':

@@ -47,7 +47,7 @@ export function websiteSchema() {
     name: SITE_NAME,
     url: BASE_URL,
     description:
-      "Quality medical supplies, healthcare products, and BF Suma products delivered to your doorstep in Kenya.",
+      "Authentic BF Suma health supplements, skincare, and wellness products delivered to your doorstep in Kenya.",
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -133,7 +133,7 @@ export function collectionPageSchema(title: string, description: string) {
     url: `${BASE_URL}/shop`,
     about: {
       '@type': 'Thing',
-      name: 'Healthcare Products',
+      name: 'BF Suma Health & Wellness Products',
     },
   }
 }
@@ -144,7 +144,7 @@ export function aboutPageSchema() {
     '@type': 'AboutPage',
     name: `About ${SITE_NAME}`,
     description:
-      'Learn about Sam\'s Suma Mart — your trusted source for quality medical supplies and healthcare products in Kenya.',
+      'Learn about Sam\'s Suma Mart — your trusted source for authentic BF Suma health, wellness, and beauty products in Kenya.',
     url: `${BASE_URL}/story`,
   }
 }

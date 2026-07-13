@@ -7,7 +7,7 @@ export default function Footer() {
             <div className={`container ${styles.grid}`}>
                 <div>
                     <h4 className={styles.heading}>SSM</h4>
-                    <p className={styles.text}>Sam's Suma Mart - Your trusted partner for high-quality medical supplies and healthcare products.</p>
+                    <p className={styles.text}>Sam's Suma Mart — your trusted source for authentic BF Suma health, wellness, and beauty products.</p>
                     <div style={{ marginTop: '0.75rem', fontSize: '0.85rem', color: '#bbb' }}>
                         <div style={{ marginBottom: '0.3rem' }}>📱 Paybill: <strong style={{ color: '#fff' }}>303030</strong></div>
                         <div>📋 Account: <strong style={{ color: '#fff' }}>2052132897</strong></div>
@@ -30,10 +30,10 @@ export default function Footer() {
                 <div>
                     <h4 className={styles.heading}>CATEGORIES</h4>
                     <ul className={styles.list}>
-                        <li><Link href="/shop?category=Diagnostics">Diagnostics</Link></li>
-                        <li><Link href="/shop?category=Consumables">Consumables</Link></li>
-                        <li><Link href="/shop?category=PPE & Safety">PPE & Safety</Link></li>
-                        <li><Link href="/shop?category=Instruments">Instruments</Link></li>
+                        <li><Link href="/shop?category=Better Life">Skincare & Beauty</Link></li>
+                        <li><Link href="/shop?category=Immunity Builders">Immune Support</Link></li>
+                        <li><Link href="/shop?category=Premium Selected">NMN Anti-Aging</Link></li>
+                        <li><Link href="/blog">Health Blog</Link></li>
                     </ul>
                 </div>
 

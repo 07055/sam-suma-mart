@@ -7,10 +7,10 @@ import styles from './SlidingHero.module.css'
 const slides = [
   {
     id: 1,
-    title: 'Quality Healthcare Products',
-    subtitle: 'Premium BF Suma health supplements delivered to your door',
-    badge: '🏥 #1 Health Supplies in Kenya',
-    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=1200',
+    title: 'Premium BF Suma Wellness',
+    subtitle: 'Authentic health supplements, skincare, and vitality products delivered to your door',
+    badge: '✨ Trusted BF Suma Store',
+    image: 'https://images.unsplash.com/photo-1556228578-0c98aaae08e1?auto=format&fit=crop&q=80&w=1200',
     cta: 'SHOP NOW',
     ctaLink: '/shop'
   },

@@ -33,7 +33,7 @@ export default async function ShopPage({ searchParams }: { searchParams: Promise
     const prisma = getPrisma()
     const collectionJson = collectionPageSchema(
       query ? `Search: "${query}"` : category ? category : 'Shop All Products',
-      "Browse our full catalog of medical supplies, healthcare products, and BF Suma products."
+      "Browse the full catalog of authentic BF Suma health supplements, skincare, and wellness products in Kenya."
     )
 
     const allCategories = await prisma.product.findMany({

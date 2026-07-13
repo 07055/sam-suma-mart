@@ -7,13 +7,13 @@ export default function Hero() {
             <div className={styles.hero}>
                 <div className={styles.content}>
                     <span className={styles.badge}>
-                        🏥 #1 Medical Supplies in Kenya
+                        ✨ #1 BF Suma Store in Kenya
                     </span>
                     <h1 className={styles.title}>
-                        Quality Healthcare Supplies Delivered.
+                        Premium BF Suma Wellness Delivered.
                     </h1>
                     <p className={styles.description}>
-                        From syringes to stethoscopes, get professional-grade medical equipment delivered to your doorstep.
+                        From anti-aging skincare to immune-boosting supplements, get authentic BF Suma products delivered to your doorstep.
                     </p>
                     <div>
                         <Link href="/shop" className="btn-primary" style={{
@@ -26,14 +26,14 @@ export default function Hero() {
                             alignItems: 'center',
                             borderRadius: '8px',
                         }}>
-                            SHOP SUPPLIES →
+                            SHOP NOW →
                         </Link>
                     </div>
                 </div>
                 <div className={styles.imageWrapper}>
                     <img
                         src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800"
-                        alt="Doctor"
+                        alt="BF Suma Products"
                         className={styles.image}
                     />
                 </div>
