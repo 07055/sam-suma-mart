@@ -28,6 +28,16 @@ function getCookie(name: string): string | null {
   return match ? decodeURIComponent(match[1]) : null
 }
 
+function setCookie(name: string, value: string, maxAge: number) {
+  document.cookie = `${name}=${value};path=/;max-age=${maxAge};SameSite=Lax`
+}
+
+function persistCountry(code: string) {
+  const year = 60 * 60 * 24 * 365
+  setCookie('country-override', code, year)
+  setCookie('country', code, year)
+}
+
 export default function CountrySelector({ initialCountry }: { initialCountry: string }) {
   const [open, setOpen] = useState(false)
   const [current, setCurrent] = useState(() => {
@@ -35,6 +45,7 @@ export default function CountrySelector({ initialCountry }: { initialCountry: st
     return info || COUNTRIES[0]
   })
   const ref = useRef<HTMLDivElement>(null)
+  const pendingCountry = useRef<string | null>(null)
 
   useEffect(() => {
     const stored = getCookie('country-override') || getCookie('country')
@@ -43,6 +54,14 @@ export default function CountrySelector({ initialCountry }: { initialCountry: st
       if (info) setCurrent(info)
     }
   }, [])
+
+  useEffect(() => {
+    if (pendingCountry.current) {
+      persistCountry(pendingCountry.current)
+      pendingCountry.current = null
+      window.location.reload()
+    }
+  })
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -56,10 +75,8 @@ export default function CountrySelector({ initialCountry }: { initialCountry: st
 
   function selectCountry(country: Country) {
     setCurrent(country)
-    document.cookie = `country-override=${country.code};path=/;max-age=${60 * 60 * 24 * 365};SameSite=Lax`
-    document.cookie = `country=${country.code};path=/;max-age=${60 * 60 * 24 * 365};SameSite=Lax`
+    pendingCountry.current = country.code
     setOpen(false)
-    window.location.reload()
   }
 
   return (
