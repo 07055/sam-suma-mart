@@ -5,6 +5,7 @@ import remarkGfm from "remark-gfm";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
 import styles from "./Article.module.css";
 import type { Metadata } from "next";
+import AdBanner from "@/components/AdBanner";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -20,15 +21,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return {};
 
+  const url = `https://samsumamart.co.ke/blog/${slug}`;
+
   return {
     title: post.title,
     description: post.description,
+    alternates: { canonical: `/blog/${slug}` },
     openGraph: {
       title: post.title,
       description: post.description,
       type: "article",
       publishedTime: post.date,
-      images: post.coverImage ? [{ url: post.coverImage, width: 1200, height: 630 }] : [],
+      url,
+      siteName: "Sam's Suma Mart",
+      images: post.coverImage ? [{ url: post.coverImage, width: 1200, height: 630, alt: post.title }] : [],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: post.coverImage ? [post.coverImage] : [],
     },
   };
 }
@@ -38,8 +50,43 @@ export default async function BlogArticle({ params }: Props) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    url: `https://samsumamart.co.ke/blog/${slug}`,
+    author: {
+      "@type": "Organization",
+      name: "Sam's Suma Mart",
+      url: "https://samsumamart.co.ke",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Sam's Suma Mart",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://samsumamart.co.ke/logo.svg",
+      },
+    },
+    ...(post.coverImage && {
+      image: post.coverImage.startsWith("http")
+        ? post.coverImage
+        : `https://samsumamart.co.ke${post.coverImage}`,
+    }),
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://samsumamart.co.ke/blog/${slug}`,
+    },
+  };
+
   return (
     <article className={styles.article}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <div className={styles.container}>
         <nav className={styles.breadcrumb}>
           <Link href="/">Home</Link>
@@ -75,9 +122,13 @@ export default async function BlogArticle({ params }: Props) {
                 {post.content}
               </ReactMarkdown>
             </div>
+
+            <AdBanner slot="ZZZZZZZZZZ" format="horizontal" />
           </div>
 
           <aside className={styles.sidebar}>
+            <AdBanner slot="WWWWWWWWWW" format="vertical" style={{ marginBottom: '1.25rem' }} />
+
             <div className={styles.ctaCard}>
               <div className={styles.ctaAccent} />
               <h3 className={styles.ctaTitle}>Shop This Product</h3>
