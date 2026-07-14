@@ -325,8 +325,8 @@ export default function AdminPage() {
                         </td>
                         <td style={{ padding: '0.75rem', fontWeight: '700' }}>KSh {Number(order.total).toLocaleString()}</td>
                         <td style={{ padding: '0.75rem' }}>
-                          <span style={{ padding: '0.25rem 0.5rem', borderRadius: '4px', fontSize: '0.75rem', background: order.paymentMethod === 'PAYSTACK' ? '#e3f2fd' : '#fff3e0', color: order.paymentMethod === 'PAYSTACK' ? '#1565c0' : '#e65100' }}>
-                            {order.paymentMethod === 'PAYSTACK' ? '💳 Paystack' : '💵 Cash on Delivery'}
+                          <span style={{ padding: '0.25rem 0.5rem', borderRadius: '4px', fontSize: '0.75rem', background: order.paymentMethod === 'CASH_ON_DELIVERY' ? '#fff3e0' : '#e8f5e9', color: order.paymentMethod === 'CASH_ON_DELIVERY' ? '#e65100' : '#2e7d32' }}>
+                            {order.paymentMethod === 'CASH_ON_DELIVERY' ? '💵 Cash on Delivery' : order.paymentMethod === 'MPESA' ? '📱 M-Pesa' : `💳 ${order.paymentMethod}`}
                           </span>
                         </td>
                         <td style={{ padding: '0.75rem' }}>

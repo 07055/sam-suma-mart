@@ -15,19 +15,11 @@ export default function CheckoutPage() {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [success, setSuccess] = useState('');
   const [country, setCountry] = useState('KE');
 
   useEffect(() => {
     const c = getCookie('country-override') || getCookie('country') || 'KE'
     setCountry(c)
-
-    const params = new URLSearchParams(window.location.search)
-    const trxref = params.get('trxref')
-    const reference = params.get('reference')
-    if (trxref || reference) {
-      setSuccess(`Payment successful! Reference: ${trxref || reference}. Your order is being processed.`)
-    }
   }, [])
 
   function getFirstImage(images: any): string {
@@ -36,7 +28,7 @@ export default function CheckoutPage() {
     return '/placeholder.jpg';
   }
 
-  if (cart.length === 0 && !success) {
+  if (cart.length === 0) {
     return (
       <div className="container" style={{ padding: '6rem 1rem', textAlign: 'center' }}>
         <h1>Your cart is empty</h1>
@@ -50,6 +42,12 @@ export default function CheckoutPage() {
   const deliveryFee = 200;
   const grandTotal = cartTotal + deliveryFee;
   const isKenya = !country || country === 'KE';
+
+  function buildWhatsAppMessage(): string {
+    const items = cart.map(item => `${item.name} x${item.quantity} — KSh ${(item.price * item.quantity).toLocaleString()}`).join('%0A');
+    const summary = `Hi, I'd like to order:%0A${items}%0A%0ATotal: KSh ${grandTotal.toLocaleString()}%0A%0APlease help me complete this order.`;
+    return summary;
+  }
 
   async function handleSubmit(e: React.MouseEvent<HTMLButtonElement>, method: string) {
     const form = (e.currentTarget as HTMLButtonElement).form!
@@ -84,58 +82,11 @@ export default function CheckoutPage() {
 
     if (orderResult.success) {
       clearCart();
-      if (method === 'PAYSTACK') {
-        try {
-          const controller = new AbortController()
-          const timeout = setTimeout(() => controller.abort(), 15000)
-
-          const payResponse = await fetch('/api/paystack/initialize', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            credentials: 'include',
-            body: JSON.stringify({
-              email: email || 'customer@example.com',
-              amount: grandTotal,
-              metadata: { orderId: orderResult.orderId }
-            })
-          })
-
-          clearTimeout(timeout)
-
-          const payData = await payResponse.json();
-          if (payData.authorization_url) {
-            window.location.href = payData.authorization_url;
-          } else {
-            setError(payData.error || 'Payment initialization failed. Please try again.');
-            setLoading(false);
-          }
-        } catch (err: any) {
-          if (err.name === 'AbortError') {
-            setError('Payment timed out. Please try again.');
-          } else {
-            setError('Payment failed. Please try again.');
-          }
-          setLoading(false);
-        }
-      } else {
-        router.push(`/order-confirmation?id=${orderResult.orderId}`);
-      }
+      router.push(`/order-confirmation?id=${orderResult.orderId}`);
     } else {
       setError(orderResult.error || 'Order creation failed');
       setLoading(false);
     }
-  }
-
-  if (success) {
-    return (
-      <div className="container" style={{ padding: '6rem 1rem', textAlign: 'center' }}>
-        <div style={{ fontSize: '4rem', marginBottom: '1rem' }}>✅</div>
-        <h1 style={{ fontSize: '1.8rem', fontWeight: '700', marginBottom: '1rem' }}>Payment Successful!</h1>
-        <p style={{ color: '#666', marginBottom: '1rem' }}>{success}</p>
-        <p style={{ color: '#666', marginBottom: '2rem' }}>You will receive a confirmation call shortly.</p>
-        <button className="btn-primary" onClick={() => router.push('/shop')}>Continue Shopping</button>
-      </div>
-    )
   }
 
   return (
@@ -180,14 +131,36 @@ export default function CheckoutPage() {
               <textarea name="address" required rows={3} placeholder="Building name, house number, street, landmark..." style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '4px' }} />
             </div>
 
-            <button type="button" onClick={(e) => handleSubmit(e, 'PAYSTACK')} disabled={loading} className="btn-primary" style={{ width: '100%', padding: '1rem', fontSize: '1rem', fontWeight: '700', opacity: loading ? 0.7 : 1, cursor: loading ? 'not-allowed' : 'pointer' }}>
-              {loading ? 'Processing...' : `PAY NOW (CARD) – KSh ${grandTotal.toLocaleString()}`}
-            </button>
-
-            {isKenya && (
-              <button type="button" onClick={(e) => handleSubmit(e, 'CASH_ON_DELIVERY')} disabled={loading} style={{ width: '100%', padding: '0.85rem', fontSize: '0.95rem', fontWeight: '600', background: '#fff', color: '#2e7d32', border: '2px solid #2e7d32', borderRadius: '6px', cursor: loading ? 'not-allowed' : 'pointer', opacity: loading ? 0.7 : 1 }}>
-                {loading ? 'Processing...' : `CASH ON DELIVERY – KSh ${grandTotal.toLocaleString()}`}
-              </button>
+            {isKenya ? (
+              <>
+                <button type="button" onClick={(e) => handleSubmit(e, 'MPESA')} disabled={loading} className="btn-primary" style={{ width: '100%', padding: '1rem', fontSize: '1rem', fontWeight: '700', opacity: loading ? 0.7 : 1, cursor: loading ? 'not-allowed' : 'pointer' }}>
+                  {loading ? 'Processing...' : `ORDER NOW — PAY VIA M-PESA`}
+                </button>
+                <button type="button" onClick={(e) => handleSubmit(e, 'CASH_ON_DELIVERY')} disabled={loading} style={{ width: '100%', padding: '0.85rem', fontSize: '0.95rem', fontWeight: '600', background: '#fff', color: '#2e7d32', border: '2px solid #2e7d32', borderRadius: '6px', cursor: loading ? 'not-allowed' : 'pointer', opacity: loading ? 0.7 : 1 }}>
+                  {loading ? 'Processing...' : `CASH ON DELIVERY – KSh ${grandTotal.toLocaleString()}`}
+                </button>
+              </>
+            ) : (
+              <a
+                href={`https://wa.me/254796388790?text=${buildWhatsAppMessage()}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  padding: '1rem',
+                  fontSize: '1rem',
+                  fontWeight: '700',
+                  background: '#25D366',
+                  color: '#fff',
+                  border: 'none',
+                  borderRadius: '6px',
+                  textAlign: 'center',
+                  textDecoration: 'none',
+                }}
+              >
+                COMPLETE ORDER VIA WHATSAPP
+              </a>
             )}
 
           </form>
@@ -225,8 +198,8 @@ export default function CheckoutPage() {
               </div>
             )}
             {!isKenya && (
-              <p style={{ marginTop: '1rem', fontSize: '0.75rem', color: '#666', background: '#f5f5f5', padding: '0.5rem 0.75rem', borderRadius: '4px', textAlign: 'center' }}>
-                All prices are in <strong>Kenyan Shillings (KSh)</strong>. Your card will be charged in KSh.
+              <p style={{ marginTop: '1rem', fontSize: '0.8rem', color: '#666', background: '#f5f5f5', padding: '0.5rem 0.75rem', borderRadius: '4px', textAlign: 'center' }}>
+                All prices in <strong>KSh</strong>. Payment arranged via WhatsApp.
               </p>
             )}
           </div>

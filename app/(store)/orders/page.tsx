@@ -88,7 +88,7 @@ export default function OrdersPage() {
                   <span style={{ padding: '0.25rem 0.75rem', borderRadius: '4px', fontSize: '0.75rem', fontWeight: '700', background: order.status === 'DELIVERED' ? '#e8f5e9' : '#e3f2fd', color: order.status === 'DELIVERED' ? '#2e7d32' : '#1565c0' }}>
                     {order.status}
                   </span>
-                  <span style={{ fontSize: '0.75rem', color: '#888' }}>{order.paymentMethod === 'CASH_ON_DELIVERY' ? 'COD' : 'Paystack'}</span>
+                  <span style={{ fontSize: '0.75rem', color: '#888' }}>{order.paymentMethod === 'CASH_ON_DELIVERY' ? 'COD' : order.paymentMethod === 'MPESA' ? 'M-Pesa' : order.paymentMethod}</span>
                 </div>
               </div>
               <div style={{ borderTop: '1px solid #eee', paddingTop: '1rem' }}>

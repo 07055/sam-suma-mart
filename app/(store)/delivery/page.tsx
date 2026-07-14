@@ -44,7 +44,6 @@ export default function DeliveryPage() {
           Payment Options (Kenya)
         </h3>
         <ul style={{ fontSize: "0.95rem", lineHeight: "1.8", color: "#444", paddingLeft: "1.5rem" }}>
-          <li><strong>Card payment</strong> via Paystack (Visa, Mastercard, mobile money)</li>
           <li><strong>M-Pesa Paybill</strong> — Paybill: 303030, Account: 2052132897</li>
           <li><strong>Cash on Delivery (COD)</strong> — pay when your order arrives</li>
         </ul>
@@ -55,41 +54,33 @@ export default function DeliveryPage() {
       {/* International Section */}
       <section style={{ marginBottom: "3rem" }}>
         <h2 style={{ fontSize: "1.4rem", fontWeight: "700", marginBottom: "1rem", color: "#1565c0" }}>
-          🌍 International Shipping
+          🌍 International Orders
         </h2>
 
         <p style={{ fontSize: "0.95rem", lineHeight: "1.8", color: "#444", marginBottom: "1rem" }}>
-          We ship BF Suma products worldwide. International orders are processed within 1–2 business days
-          and shipped via tracked international courier.
+          We welcome international customers! You can browse and add products to your cart as normal.
+          At checkout, tap <strong>&quot;Complete Order via WhatsApp&quot;</strong> and we&apos;ll help you
+          arrange payment and delivery directly.
         </p>
 
         <h3 style={{ fontSize: "1.1rem", fontWeight: "600", marginTop: "1.5rem", marginBottom: "0.5rem" }}>
-          Delivery Timeframes
+          How It Works
         </h3>
         <ul style={{ fontSize: "0.95rem", lineHeight: "1.8", color: "#444", paddingLeft: "1.5rem", marginBottom: "1rem" }}>
-          <li><strong>East Africa (Tanzania, Uganda, Rwanda):</strong> 5–10 business days</li>
-          <li><strong>Sub-Saharan Africa:</strong> 7–14 business days</li>
-          <li><strong>Europe, UK, Middle East:</strong> 7–14 business days</li>
-          <li><strong>Americas, Asia, Other:</strong> 10–21 business days</li>
-        </ul>
-
-        <h3 style={{ fontSize: "1.1rem", fontWeight: "600", marginTop: "1.5rem", marginBottom: "0.5rem" }}>
-          International Payment
-        </h3>
-        <ul style={{ fontSize: "0.95rem", lineHeight: "1.8", color: "#444", paddingLeft: "1.5rem", marginBottom: "1rem" }}>
-          <li><strong>Card payment via Paystack</strong> — Visa, Mastercard accepted</li>
-          <li>All prices are displayed in <strong>Kenyan Shillings (KSh)</strong>. Your card will be charged in KSh at the prevailing exchange rate set by your bank.</li>
-          <li>Cash on Delivery and M-Pesa are <strong>not available</strong> for international orders.</li>
+          <li>Browse our shop and add items to your cart</li>
+          <li>At checkout, fill in your delivery details and tap <strong>&quot;Complete Order via WhatsApp&quot;</strong></li>
+          <li>We&apos;ll confirm availability, shipping costs, and delivery timeframe based on your location</li>
+          <li>Payment is arranged directly with you via WhatsApp</li>
         </ul>
 
         <h3 style={{ fontSize: "1.1rem", fontWeight: "600", marginTop: "1.5rem", marginBottom: "0.5rem" }}>
           Important Notes
         </h3>
         <ul style={{ fontSize: "0.95rem", lineHeight: "1.8", color: "#444", paddingLeft: "1.5rem" }}>
-          <li>International shipping fees are calculated at checkout based on destination and weight.</li>
-          <li>Customs duties, taxes, or import fees imposed by your country are the buyer's responsibility.</li>
-          <li>We provide tracking information for all international shipments.</li>
-          <li>Delivery times are estimates and may vary due to customs processing or local postal delays.</li>
+          <li>All prices are displayed in <strong>Kenyan Shillings (KSh)</strong></li>
+          <li>Shipping costs and delivery timeframes will be confirmed with you directly based on your location</li>
+          <li>Customs duties, taxes, or import fees imposed by your country are the buyer&apos;s responsibility</li>
+          <li>Online payment for international orders is not yet available — all orders are arranged via WhatsApp</li>
         </ul>
       </section>
 

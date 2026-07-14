@@ -64,7 +64,7 @@ model Order {
   lng             Float?
   total           Float
   status          OrderStatus   @default(PENDING)
-  paymentMethod   PaymentMethod @default(PAYSTACK)
+  paymentMethod   PaymentMethod @default(CASH_ON_DELIVERY)
   paymentStatus   PaymentStatus @default(UNPAID)
   transactionRef  String?
   userId          String?
@@ -75,8 +75,8 @@ model Order {
 }
 
 enum PaymentMethod {
-  PAYSTACK
   CASH_ON_DELIVERY
+  MPESA
 }
 
 enum PaymentStatus {

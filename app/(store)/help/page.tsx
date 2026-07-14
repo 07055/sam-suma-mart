@@ -72,8 +72,7 @@ export default function HelpPage() {
         <div style={{ marginBottom: "1.5rem" }}>
           <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.5rem" }}>What payment methods do you accept?</h3>
           <p style={{ fontSize: "0.95rem", lineHeight: "1.7", color: "#444" }}>
-            We accept card payments via Paystack (Visa, Mastercard). Customers in Kenya can also
-            pay via M-Pesa Paybill or Cash on Delivery.
+            Customers in Kenya can pay via <strong>M-Pesa Paybill</strong> (Paybill: 303030, Account: 2052132897) or <strong>Cash on Delivery</strong>. International customers can complete their order via WhatsApp — we&apos;ll arrange payment and delivery directly.
           </p>
         </div>
 
@@ -89,8 +88,9 @@ export default function HelpPage() {
         <div style={{ marginBottom: "1.5rem" }}>
           <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.5rem" }}>Do you ship internationally?</h3>
           <p style={{ fontSize: "0.95rem", lineHeight: "1.7", color: "#444" }}>
-            Yes! We ship worldwide. International orders are delivered within 7–21 business days
-            depending on your location. See our{" "}
+            Yes! We welcome international customers. Add items to your cart and tap
+            &quot;Complete Order via WhatsApp&quot; at checkout — we&apos;ll arrange payment and delivery
+            directly. See our{" "}
             <a href="/delivery" style={{ color: "#2e7d32", fontWeight: 600 }}>Shipping &amp; Delivery</a>{" "}
             page for details.
           </p>

@@ -164,7 +164,7 @@ const faqKenya: Record<string, string> = {
   'Do you deliver?':
     'Yes! We deliver across <strong>Nairobi and all counties in Kenya</strong>. Delivery times vary by location — typically 1–3 days within Nairobi and 3–7 days upcountry.',
   'What payment methods do you accept?':
-    'We accept <strong>Paystack (card, mobile money)</strong>, <strong>M-Pesa Paybill</strong> and <strong>Cash on Delivery (COD)</strong>. Pay securely online, via M-Pesa, or pay when your order arrives.',
+    'We accept <strong>M-Pesa Paybill</strong> (Paybill: 303030, Account: 2052132897) and <strong>Cash on Delivery (COD)</strong>. Pay via M-Pesa or pay when your order arrives.',
   'How do I track my order?':
     'Once your order is placed, you\'ll receive updates via phone. You can also check your order history in the <strong>Profile</strong> page after logging in.',
   'What is your return policy?':
@@ -181,7 +181,7 @@ const faqInternational: Record<string, string> = {
   'Do you deliver?':
     'Yes! We ship internationally. Delivery times vary by location — typically 5–14 business days depending on your country.',
   'What payment methods do you accept?':
-    'We accept <strong>card payments via Paystack</strong> (Visa, Mastercard, and local cards). Pay securely online at checkout.',
+    'Online payment isn\'t available yet for international orders. Simply build your cart and tap <strong>"Complete Order via WhatsApp"</strong> — we\'ll help you arrange payment and delivery directly.',
   'How do I track my order?':
     'Once your order is placed, you\'ll receive updates via email. You can also check your order history in the <strong>Profile</strong> page after logging in.',
   'What is your return policy?':
