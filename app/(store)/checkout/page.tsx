@@ -49,7 +49,7 @@ export default function CheckoutPage() {
 
   const deliveryFee = 200;
   const grandTotal = cartTotal + deliveryFee;
-  const isKenya = country === 'KE';
+  const isKenya = !country || country === 'KE';
 
   async function handleSubmit(e: React.MouseEvent<HTMLButtonElement>, method: string) {
     const form = (e.currentTarget as HTMLButtonElement).form!
@@ -223,6 +223,11 @@ export default function CheckoutPage() {
                 <strong>📱 Pay via M-Pesa</strong><br />
                 Paybill: <strong>303030</strong> &nbsp;|&nbsp; Account: <strong>2052132897</strong>
               </div>
+            )}
+            {!isKenya && (
+              <p style={{ marginTop: '1rem', fontSize: '0.75rem', color: '#666', background: '#f5f5f5', padding: '0.5rem 0.75rem', borderRadius: '4px', textAlign: 'center' }}>
+                All prices are in <strong>Kenyan Shillings (KSh)</strong>. Your card will be charged in KSh.
+              </p>
             )}
           </div>
         </div>

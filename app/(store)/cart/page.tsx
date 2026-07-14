@@ -2,9 +2,21 @@
 
 import { useCart } from '@/lib/CartContext';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
+
+function getCookie(name: string): string | null {
+  const match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'))
+  return match ? decodeURIComponent(match[1]) : null
+}
 
 export default function CartPage() {
     const { cart, removeFromCart, updateQuantity, cartTotal, clearCart } = useCart();
+    const [isKenya, setIsKenya] = useState(true);
+
+    useEffect(() => {
+      const c = getCookie('country-override') || getCookie('country') || 'KE'
+      setIsKenya(!c || c === 'KE')
+    }, [])
 
     if (cart.length === 0) {
         return (
@@ -88,6 +100,11 @@ export default function CartPage() {
                             <span>Subtotal</span>
                             <span style={{ fontSize: '1.2rem', fontWeight: '700' }}>KSh {cartTotal.toLocaleString()}</span>
                         </div>
+                        {!isKenya && (
+                          <p style={{ fontSize: '0.7rem', color: '#666', background: '#f5f5f5', padding: '0.5rem 0.75rem', borderRadius: '4px', marginBottom: '1rem' }}>
+                            All prices are in <strong>Kenyan Shillings (KSh)</strong>. Your card will be charged in KSh at checkout.
+                          </p>
+                        )}
                         <p style={{ fontSize: '0.7rem', color: 'var(--secondary-text)', marginBottom: '1.5rem' }}>Delivery fees not included yet.</p>
                         <Link href="/checkout" className="btn-primary" style={{ width: '100%', padding: '1rem', display: 'block', textAlign: 'center', textDecoration: 'none' }}>
                             CHECKOUT (KSh {cartTotal.toLocaleString()})

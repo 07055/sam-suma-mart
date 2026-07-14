@@ -8,16 +8,16 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: "BF Suma Products Kenya – Buy Health & Wellness Online",
-  description: "Kenya's trusted online store for authentic BF Suma products. Shop anti-aging skincare, NMN anti-aging supplements, Reishi coffee, joint care & more. Order now for delivery across Nairobi & all Kenyan counties.",
+  description: "Shop authentic BF Suma products online. Anti-aging skincare, NMN supplements, Reishi coffee, joint care & more. Fast delivery in Kenya with international shipping available.",
   openGraph: {
     title: "BF Suma Products Kenya – Buy Health & Wellness Online | Sam's Suma Mart",
-    description: "Kenya's trusted online store for authentic BF Suma products. Shop anti-aging skincare, NMN supplements, Reishi coffee, joint care & more. Order now for delivery across Nairobi & all Kenyan counties.",
+    description: "Shop authentic BF Suma products online. Anti-aging skincare, NMN supplements, Reishi coffee, joint care & more. Fast delivery in Kenya with international shipping available.",
     images: [{ url: '/logo.svg', width: 200, height: 200 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "BF Suma Products Kenya – Buy Health & Wellness Online | Sam's Suma Mart",
-    description: "Kenya's trusted online store for authentic BF Suma products. Shop anti-aging skincare, NMN supplements, Reishi coffee, joint care & more. Order now for delivery across Nairobi & all Kenyan counties.",
+    description: "Shop authentic BF Suma products online. Anti-aging skincare, NMN supplements, Reishi coffee, joint care & more. Fast delivery in Kenya with international shipping available.",
     images: ['/logo.svg'],
   },
   alternates: {

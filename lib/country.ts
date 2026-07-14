@@ -25,8 +25,24 @@ export function getCountryInfo(code: string | undefined | null) {
   return COUNTRIES.find((c) => c.code === code) || COUNTRIES[0]
 }
 
-export function getCountryFromCookies(cookieHeader: string | null): string {
-  if (!cookieHeader) return DEFAULT_COUNTRY
-  const match = cookieHeader.match(/(?:^|;\s*)country=([^;]*)/)
-  return match ? decodeURIComponent(match[1]) : DEFAULT_COUNTRY
+export function formatPrice(amount: number, country?: string | null): string {
+  const formatted = amount.toLocaleString()
+  if (isKenya(country)) {
+    return `KSh ${formatted}`
+  }
+  return `KSh ${formatted}`
+}
+
+export function formatPriceWithNote(amount: number, country?: string | null): {
+  display: string
+  note: string | null
+} {
+  const formatted = amount.toLocaleString()
+  if (isKenya(country)) {
+    return { display: `KSh ${formatted}`, note: null }
+  }
+  return {
+    display: `KSh ${formatted}`,
+    note: 'Kenyan Shillings — your card will be charged in KSh at checkout',
+  }
 }

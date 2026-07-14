@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     default: "BF Suma Products Kenya | Shop Online – Sam's Suma Mart",
     template: "%s | Sam's Suma Mart",
   },
-  description: "Shop authentic BF Suma products online in Kenya. Browse anti-aging skincare, immune boosters, NMN supplements, joint care & more. Fast delivery across Nairobi & all counties.",
+  description: "Shop authentic BF Suma products online. Anti-aging skincare, immune boosters, NMN supplements, joint care & more. Fast delivery in Kenya and international shipping available.",
   metadataBase: new URL('https://samsumamart.co.ke'),
   robots: { index: true, follow: true },
   verification: {
@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     locale: 'en_KE',
     siteName: "Sam's Suma Mart",
     title: "BF Suma Products Kenya | Shop Online – Sam's Suma Mart",
-    description: "Shop authentic BF Suma products online in Kenya. Browse anti-aging skincare, immune boosters, NMN supplements, joint care & more. Fast delivery across Nairobi & all counties.",
+    description: "Shop authentic BF Suma products online. Anti-aging skincare, immune boosters, NMN supplements, joint care & more. Fast delivery in Kenya and international shipping available.",
     images: [{ url: '/logo.svg', width: 200, height: 200 }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "BF Suma Products Kenya | Shop Online – Sam's Suma Mart",
-    description: "Shop authentic BF Suma products online in Kenya. Browse anti-aging skincare, immune boosters, NMN supplements, joint care & more. Fast delivery across Nairobi & all counties.",
+    description: "Shop authentic BF Suma products online. Anti-aging skincare, immune boosters, NMN supplements, joint care & more. Fast delivery in Kenya and international shipping available.",
     images: ['/logo.svg'],
   },
   alternates: {

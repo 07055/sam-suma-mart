@@ -29,10 +29,10 @@ export default async function Footer() {
                 <div>
                     <h4 className={styles.heading}>NEED HELP?</h4>
                     <ul className={styles.list}>
-                        <li><Link href="/">Help Center</Link></li>
+                        <li><Link href="/help">Help Center</Link></li>
                         <li><a href="https://wa.me/254796388790" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
-                        <li><Link href="/">Delivery options</Link></li>
-                        <li><Link href="/">Return Policy</Link></li>
+                        <li><Link href="/delivery">Delivery options</Link></li>
+                        <li><Link href="/returns">Return Policy</Link></li>
                     </ul>
                 </div>
 

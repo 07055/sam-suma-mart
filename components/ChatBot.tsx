@@ -221,8 +221,11 @@ export default function ChatBot() {
   }, [chat])
 
   useEffect(() => {
-    const match = document.cookie.match(/(?:^|;\s*)country=([^;]*)/)
-    const country = match ? decodeURIComponent(match[1]) : 'KE'
+    const getCookie = (name: string) => {
+      const m = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'))
+      return m ? decodeURIComponent(m[1]) : null
+    }
+    const country = getCookie('country-override') || getCookie('country') || 'KE'
     if (country !== 'KE') {
       setActiveFaq(faqInternational)
     }
