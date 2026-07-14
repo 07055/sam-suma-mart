@@ -5,14 +5,23 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { createOrder } from '@/lib/actions';
 
+function getCookie(name: string): string | null {
+  const match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'))
+  return match ? decodeURIComponent(match[1]) : null
+}
+
 export default function CheckoutPage() {
   const { cart, cartTotal, clearCart } = useCart();
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
+  const [country, setCountry] = useState('KE');
 
   useEffect(() => {
+    const c = getCookie('country-override') || getCookie('country') || 'KE'
+    setCountry(c)
+
     const params = new URLSearchParams(window.location.search)
     const trxref = params.get('trxref')
     const reference = params.get('reference')
@@ -40,6 +49,7 @@ export default function CheckoutPage() {
 
   const deliveryFee = 200;
   const grandTotal = cartTotal + deliveryFee;
+  const isKenya = country === 'KE';
 
   async function handleSubmit(e: React.MouseEvent<HTMLButtonElement>, method: string) {
     const form = (e.currentTarget as HTMLButtonElement).form!
@@ -150,7 +160,7 @@ export default function CheckoutPage() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
               <div>
                 <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.3rem' }}>Phone *</label>
-                <input type="tel" name="phone" required placeholder="0712 345 678" style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '4px' }} />
+                <input type="tel" name="phone" required placeholder={isKenya ? '0712 345 678' : '+1 555 123 4567'} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '4px' }} />
               </div>
               <div>
                 <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.3rem' }}>Email</label>
@@ -159,20 +169,26 @@ export default function CheckoutPage() {
             </div>
             <div>
               <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.3rem' }}>City *</label>
-              <input type="text" name="city" required placeholder="e.g. Nairobi" style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '4px' }} />
+              <input type="text" name="city" required placeholder={isKenya ? 'e.g. Nairobi' : 'e.g. London, New York'} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '4px' }} />
             </div>
             <div>
               <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.3rem' }}>Area / Building</label>
-              <input type="text" name="location" placeholder="e.g. Westlands, Kilimani, Ridgeways" style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '4px' }} />
+              <input type="text" name="location" placeholder={isKenya ? 'e.g. Westlands, Kilimani, Ridgeways' : 'e.g. Apt 4, District'} style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '4px' }} />
             </div>
             <div>
               <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: '600', marginBottom: '0.3rem' }}>Street Address *</label>
               <textarea name="address" required rows={3} placeholder="Building name, house number, street, landmark..." style={{ width: '100%', padding: '0.7rem', border: '1px solid #ddd', borderRadius: '4px' }} />
             </div>
 
-            <button type="button" onClick={(e) => handleSubmit(e, 'CASH_ON_DELIVERY')} disabled={loading} className="btn-primary" style={{ width: '100%', padding: '1rem', fontSize: '1rem', fontWeight: '700', opacity: loading ? 0.7 : 1, cursor: loading ? 'not-allowed' : 'pointer' }}>
-              {loading ? 'Processing...' : `ORDER - CASH ON DELIVERY KSh ${grandTotal.toLocaleString()}`}
+            <button type="button" onClick={(e) => handleSubmit(e, 'PAYSTACK')} disabled={loading} className="btn-primary" style={{ width: '100%', padding: '1rem', fontSize: '1rem', fontWeight: '700', opacity: loading ? 0.7 : 1, cursor: loading ? 'not-allowed' : 'pointer' }}>
+              {loading ? 'Processing...' : `PAY NOW (CARD) – KSh ${grandTotal.toLocaleString()}`}
             </button>
+
+            {isKenya && (
+              <button type="button" onClick={(e) => handleSubmit(e, 'CASH_ON_DELIVERY')} disabled={loading} style={{ width: '100%', padding: '0.85rem', fontSize: '0.95rem', fontWeight: '600', background: '#fff', color: '#2e7d32', border: '2px solid #2e7d32', borderRadius: '6px', cursor: loading ? 'not-allowed' : 'pointer', opacity: loading ? 0.7 : 1 }}>
+                {loading ? 'Processing...' : `CASH ON DELIVERY – KSh ${grandTotal.toLocaleString()}`}
+              </button>
+            )}
 
           </form>
         </div>
@@ -202,10 +218,12 @@ export default function CheckoutPage() {
               <span style={{ fontSize: '1.1rem', fontWeight: '700' }}>Total</span>
               <span style={{ fontSize: '1.3rem', fontWeight: '700', color: '#2e7d32' }}>KSh {grandTotal.toLocaleString()}</span>
             </div>
-            <div style={{ marginTop: '1rem', padding: '0.75rem', background: '#fff8e1', borderRadius: '6px', fontSize: '0.8rem', color: '#333', textAlign: 'center' }}>
-              <strong>📱 Pay via M-Pesa</strong><br />
-              Paybill: <strong>303030</strong> &nbsp;|&nbsp; Account: <strong>2052132897</strong>
-            </div>
+            {isKenya && (
+              <div style={{ marginTop: '1rem', padding: '0.75rem', background: '#fff8e1', borderRadius: '6px', fontSize: '0.8rem', color: '#333', textAlign: 'center' }}>
+                <strong>📱 Pay via M-Pesa</strong><br />
+                Paybill: <strong>303030</strong> &nbsp;|&nbsp; Account: <strong>2052132897</strong>
+              </div>
+            )}
           </div>
         </div>
       </div>

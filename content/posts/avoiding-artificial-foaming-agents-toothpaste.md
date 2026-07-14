@@ -2,7 +2,7 @@
 title: "Why You Should Avoid Sodium Lauryl Sulfate and Artificial Foaming Agents in Your Toothpaste"
 description: "The uncomfortable truth about SLS, triclosan, and synthetic foaming agents in conventional toothpaste — what they actually do to your mouth and why natural alternatives are better."
 date: "2026-07-13"
-coverImage: "/uploads/bf%20suma%20photos/Suma%20Self%20Care/Dr%20Ts%20Toothpaste%20-%20Ksh%20855.jpg"
+coverImage: "/uploads/bf suma photos/Suma Self Care/dr-ts-toothpaste.jpg"
 productSlug: "dr-ts-toothpaste"
 category: "Oral Health"
 ---
@@ -22,7 +22,7 @@ Understanding what is really in your toothpaste — and what those ingredients a
 Sodium lauryl sulfate (SLS) is the most widely used surfactant in personal care products, including toothpaste, shampoo, body wash, and hand soap. It is effective at creating foam and removing oils, but its mechanism of action is indiscriminate — it strips away everything in its path, including the protective layers your mouth needs to stay healthy.
 
 ### Oral Mucosa Damage
-The thin, delicate tissue lining your cheeks, gums, and tongue is protected by a mucous membrane that shields underlying cells from friction, bacteria, and chemical irritants. SLS dissolves this protective layer, leaving oral tissue vulnerable to irritation, dryness, and damage. Research published in the *Journal of the American Dental Association* has established a direct correlation between SLS-containing toothpaste and recurrent aphthous ulcers (canker sores), with study participants experiencing significantly fewer outbreaks after switching to SLS-free formulations.
+The thin, delicate tissue lining your cheeks, gums, and tongue is protected by a mucous membrane that shields underlying cells from friction, bacteria, and chemical irritants. SLS dissolves this protective layer, leaving oral tissue vulnerable to irritation, dryness, and damage. Research published in the [*Journal of the American Dental Association*](https://jada.ada.org/article/S0002-8177(15)00307-2/fulltext) has established a direct correlation between SLS-containing toothpaste and recurrent aphthous ulcers (canker sores), with study participants experiencing significantly fewer outbreaks after switching to SLS-free formulations.
 
 ### Taste Disturbance
 SLS alters taste perception by stripping the protein coating from taste buds. This is why food often tastes different — and sometimes metallic — immediately after brushing with conventional toothpaste. While this effect is temporary, repeated daily exposure may contribute to cumulative changes in taste sensitivity.
@@ -38,7 +38,7 @@ Triclosan was once a ubiquitous ingredient in antibacterial toothpastes, markete
 
 Triclosan works by inhibiting an enzyme (enoyl-acyl carrier protein reductase) that bacteria need for fatty acid synthesis. The problem is that this mechanism does not selectively target harmful bacteria — it affects the entire oral microbiome, including beneficial species that help maintain oral health. Additionally, widespread triclosan use has been linked to the development of antibiotic-resistant bacterial strains, a serious public health concern that has prompted regulatory action in multiple countries.
 
-Research has also raised concerns about triclosan's endocrine-disrupting potential, with studies in *Environmental Health Perspectives* demonstrating that triclosan can interfere with thyroid hormone metabolism at concentrations achievable through regular toothpaste use.
+Research has also raised concerns about triclosan's endocrine-disrupting potential, with studies in [*Environmental Health Perspectives*](https://doi.org/10.1289/ehp.1510185) demonstrating that triclosan can interfere with thyroid hormone metabolism at concentrations achievable through regular toothpaste use.
 
 ---
 

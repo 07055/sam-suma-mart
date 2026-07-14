@@ -3,10 +3,14 @@ import { cookies } from 'next/headers';
 import { getPrisma } from '@/lib/prisma';
 import styles from './Header.module.css';
 import CartCount from './CartCount';
+import CountrySelector from './CountrySelector';
 
 export default async function Header() {
   const cookieStore = await cookies()
   const userId = cookieStore.get('userId')?.value
+  const country = cookieStore.get('country-override')?.value
+    || cookieStore.get('country')?.value
+    || 'KE'
 
   let userName: string | null = null
   if (userId) {
@@ -19,7 +23,7 @@ export default async function Header() {
     <header className={styles.header}>
       <div className={styles.topBar}>
         <div className={styles.topBarInner}>
-          <span>🇰🇪 Kenya</span>
+          <CountrySelector initialCountry={country} />
           <div className={styles.topBarLinks}>
             <a href="/bf-suma-products">BF Suma Products</a>
             <a href="/shop">Shop All</a>

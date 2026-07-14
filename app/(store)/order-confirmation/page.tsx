@@ -1,8 +1,14 @@
 import { notFound } from 'next/navigation'
 import { getOrders } from '@/lib/actions'
+import { cookies } from 'next/headers'
 
 export default async function OrderConfirmationPage({ searchParams }: { searchParams: Promise<{ id?: string }> }) {
   const { id } = await searchParams
+  const cookieStore = await cookies()
+  const country = cookieStore.get('country-override')?.value
+    || cookieStore.get('country')?.value
+    || 'KE'
+  const isKenya = !country || country === 'KE'
 
   if (!id) notFound()
 
@@ -29,10 +35,12 @@ export default async function OrderConfirmationPage({ searchParams }: { searchPa
           {order.paymentStatus === 'PAID' ? '✅ Paid' : '⏳ Payment Pending'}
         </span>
       </p>
-      <div style={{ display: 'inline-block', padding: '0.75rem 1.5rem', background: '#fff8e1', borderRadius: '8px', fontSize: '0.9rem', color: '#333', marginBottom: '1.5rem' }}>
-        <strong>📱 Pay via M-Pesa</strong><br />
-        Paybill: <strong>303030</strong> &nbsp;|&nbsp; Account: <strong>2052132897</strong>
-      </div>
+      {isKenya && (
+        <div style={{ display: 'inline-block', padding: '0.75rem 1.5rem', background: '#fff8e1', borderRadius: '8px', fontSize: '0.9rem', color: '#333', marginBottom: '1.5rem' }}>
+          <strong>📱 Pay via M-Pesa</strong><br />
+          Paybill: <strong>303030</strong> &nbsp;|&nbsp; Account: <strong>2052132897</strong>
+        </div>
+      )}
       <p style={{ color: '#666', marginBottom: '2rem' }}>
         You will receive a confirmation call shortly. Delivery within 24-48 hours.
       </p>

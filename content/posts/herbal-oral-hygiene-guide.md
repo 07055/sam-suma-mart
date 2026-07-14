@@ -2,7 +2,7 @@
 title: "Herbal Oral Hygiene: How Plant-Based Ingredients Support Healthier Teeth and Gums"
 description: "Discover the science behind herbal toothpaste and how plant-derived ingredients like neem, tea tree, and clove oil provide effective oral hygiene without harsh synthetic chemicals."
 date: "2026-07-13"
-coverImage: "/uploads/bf%20suma%20photos/Suma%20Self%20Care/Dr%20Ts%20Toothpaste%20-%20Ksh%20855.jpg"
+coverImage: "/uploads/bf suma photos/Suma Self Care/dr-ts-toothpaste.jpg"
 productSlug: "dr-ts-toothpaste"
 category: "Oral Health"
 ---

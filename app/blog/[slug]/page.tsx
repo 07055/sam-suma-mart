@@ -23,6 +23,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const url = `https://samsumamart.co.ke/blog/${slug}`;
 
+  const ogImageUrl = post.coverImage
+    ? (post.coverImage.startsWith('http') ? post.coverImage : `https://samsumamart.co.ke${post.coverImage}`)
+    : '';
+
   return {
     title: post.title,
     description: post.description,
@@ -34,13 +38,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.date,
       url,
       siteName: "Sam's Suma Mart",
-      images: post.coverImage ? [{ url: post.coverImage, width: 1200, height: 630, alt: post.title }] : [],
+      images: ogImageUrl ? [{ url: ogImageUrl, width: 1200, height: 630, alt: post.title }] : [],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.description,
-      images: post.coverImage ? [post.coverImage] : [],
+      images: ogImageUrl ? [ogImageUrl] : [],
     },
   };
 }

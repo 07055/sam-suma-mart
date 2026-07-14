@@ -158,13 +158,13 @@ const symptomMap: SymptomMatch[] = [
   },
 ]
 
-const faq: Record<string, string> = {
+const faqKenya: Record<string, string> = {
   'What products do you sell?':
     'We sell <strong>authentic BF Suma health and wellness products</strong> including anti-aging skincare, NMN supplements, joint care, immune support, digestive health, and more.',
   'Do you deliver?':
     'Yes! We deliver across <strong>Nairobi and all counties in Kenya</strong>. Delivery times vary by location — typically 1–3 days within Nairobi and 3–7 days upcountry.',
   'What payment methods do you accept?':
-    'We accept <strong>Paystack (card, mobile money)</strong> and <strong>Cash on Delivery (COD)</strong>. Pay securely online or pay when your order arrives.',
+    'We accept <strong>Paystack (card, mobile money)</strong>, <strong>M-Pesa Paybill</strong> and <strong>Cash on Delivery (COD)</strong>. Pay securely online, via M-Pesa, or pay when your order arrives.',
   'How do I track my order?':
     'Once your order is placed, you\'ll receive updates via phone. You can also check your order history in the <strong>Profile</strong> page after logging in.',
   'What is your return policy?':
@@ -175,7 +175,24 @@ const faq: Record<string, string> = {
     'Simply <strong>browse our shop</strong>, add items to your cart, proceed to checkout, fill in your delivery details, and choose your payment method. Easy!',
 }
 
-const quickQuestions = Object.keys(faq)
+const faqInternational: Record<string, string> = {
+  'What products do you sell?':
+    'We sell <strong>authentic BF Suma health and wellness products</strong> including anti-aging skincare, NMN supplements, joint care, immune support, digestive health, and more.',
+  'Do you deliver?':
+    'Yes! We ship internationally. Delivery times vary by location — typically 5–14 business days depending on your country.',
+  'What payment methods do you accept?':
+    'We accept <strong>card payments via Paystack</strong> (Visa, Mastercard, and local cards). Pay securely online at checkout.',
+  'How do I track my order?':
+    'Once your order is placed, you\'ll receive updates via email. You can also check your order history in the <strong>Profile</strong> page after logging in.',
+  'What is your return policy?':
+    'If you receive a damaged or incorrect item, contact us within <strong>48 hours</strong> of delivery and we\'ll arrange a replacement or refund.',
+  'How do I contact you?':
+    'You can reach us on <strong>WhatsApp at +254 796 388 790</strong> or email us. We\'re here to help!',
+  'How do I place an order?':
+    'Simply <strong>browse our shop</strong>, add items to your cart, proceed to checkout, fill in your delivery details, and pay securely by card. Easy!',
+}
+
+const quickQuestions = Object.keys(faqKenya)
 
 interface ChatMessage {
   sender: 'user' | 'bot'
@@ -197,10 +214,19 @@ export default function ChatBot() {
   const [chat, setChat] = useState<ChatMessage[]>([])
   const [input, setInput] = useState('')
   const messagesEndRef = useRef<HTMLDivElement>(null)
+  const [activeFaq, setActiveFaq] = useState(faqKenya)
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [chat])
+
+  useEffect(() => {
+    const match = document.cookie.match(/(?:^|;\s*)country=([^;]*)/)
+    const country = match ? decodeURIComponent(match[1]) : 'KE'
+    if (country !== 'KE') {
+      setActiveFaq(faqInternational)
+    }
+  }, [])
 
   const handleToggle = () => {
     setOpen(!open)
@@ -244,7 +270,7 @@ export default function ChatBot() {
   const handleFaq = (q: string) => {
     addUser(q)
     setTimeout(() => {
-      setChat(prev => [...prev, { sender: 'bot', text: '', html: faq[q] }])
+      setChat(prev => [...prev, { sender: 'bot', text: '', html: activeFaq[q] }])
     }, 100)
   }
 
