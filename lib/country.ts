@@ -43,6 +43,6 @@ export function formatPriceWithNote(amount: number, country?: string | null): {
   }
   return {
     display: `KSh ${formatted}`,
-    note: 'Kenyan Shillings — your card will be charged in KSh at checkout',
+    note: 'Kenyan Shillings (KSh)',
   }
 }

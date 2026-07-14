@@ -10,14 +10,14 @@ export function organizationSchema() {
     logo: `${BASE_URL}/logo.svg`,
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+254-700-000-000',
+    telephone: '+254-796-388-790',
       contactType: 'customer service',
       availableLanguage: ['English', 'Swahili'],
     },
     sameAs: [
       'https://www.facebook.com/samsumamart',
       'https://www.instagram.com/samsumamart',
-      'https://wa.me/254700000000',
+      'https://wa.me/254796388790',
     ],
   }
 }

@@ -102,7 +102,7 @@ export default function CartPage() {
                         </div>
                         {!isKenya && (
                           <p style={{ fontSize: '0.7rem', color: '#666', background: '#f5f5f5', padding: '0.5rem 0.75rem', borderRadius: '4px', marginBottom: '1rem' }}>
-                            All prices are in <strong>Kenyan Shillings (KSh)</strong>. Your card will be charged in KSh at checkout.
+                            All prices are in <strong>Kenyan Shillings (KSh)</strong>. Complete payment via M-Pesa, Cash on Delivery, or WhatsApp at checkout.
                           </p>
                         )}
                         <p style={{ fontSize: '0.7rem', color: 'var(--secondary-text)', marginBottom: '1.5rem' }}>Delivery fees not included yet.</p>

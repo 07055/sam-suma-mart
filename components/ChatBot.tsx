@@ -189,7 +189,7 @@ const faqInternational: Record<string, string> = {
   'How do I contact you?':
     'You can reach us on <strong>WhatsApp at +254 796 388 790</strong> or email us. We\'re here to help!',
   'How do I place an order?':
-    'Simply <strong>browse our shop</strong>, add items to your cart, proceed to checkout, fill in your delivery details, and pay securely by card. Easy!',
+    'Simply <strong>browse our shop</strong>, add items to your cart, proceed to checkout, fill in your delivery details, and complete your order via M-Pesa, Cash on Delivery, or WhatsApp. Easy!',
 }
 
 const quickQuestions = Object.keys(faqKenya)
