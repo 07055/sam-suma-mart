@@ -30,7 +30,7 @@ The secondary pathway involves calcium passing between intestinal cells through 
 ## Factors That Enhance Calcium Absorption
 
 ### Vitamin D
-The relationship between vitamin D and calcium absorption is so fundamental that calcium supplementation without adequate vitamin D is often futile. Vitamin D stimulates the production of calbindin in intestinal cells, directly increasing active calcium transport. Research published in the *Journal of Clinical Endocrinology and Metabolism* has demonstrated that calcium absorption efficiency can double when vitamin D status is optimized.
+The relationship between vitamin D and calcium absorption is so fundamental that calcium supplementation without adequate vitamin D is often futile. Vitamin D stimulates the production of calbindin in intestinal cells, directly increasing active calcium transport. Research has shown that optimizing vitamin D status can meaningfully improve calcium absorption.
 
 ### Adequate Stomach Acid
 Calcium carbonate — the most common and cheapest form of calcium supplement — requires stomach acid for dissolution and absorption. Individuals taking acid-reducing medications, elderly adults with naturally declining stomach acid production, and people with certain digestive conditions may absorb very little calcium from carbonate supplements. Calcium citrate and other organic acid forms are better absorbed in low-acid environments.
@@ -39,7 +39,7 @@ Calcium carbonate — the most common and cheapest form of calcium supplement �
 Phosphorus and calcium metabolism are intimately linked. The body maintains a carefully regulated calcium-to-phosphorus ratio, and excessive phosphorus intake (common in diets high in processed foods and carbonated drinks) can interfere with calcium absorption and increase calcium excretion through the kidneys.
 
 ### Magnesium
-Magnesium is required for the conversion of vitamin D into its active form. Without adequate magnesium, vitamin D remains inactive regardless of sun exposure or supplementation, impairing calcium absorption indirectly. Research in the *Journal of the American Osteopathic Association* has shown that magnesium supplementation can help optimize vitamin D status even in individuals with consistently low levels.
+Magnesium is required for the conversion of vitamin D into its active form. Without adequate magnesium, vitamin D remains inactive regardless of sun exposure or supplementation, impairing calcium absorption indirectly. Research in the [*Journal of the American Osteopathic Association*](https://journals.lww.com/ajoa) has shown that magnesium supplementation can help optimize vitamin D status even in individuals with consistently low levels.
 
 ### Zinc
 Zinc plays a direct role in bone mineralization and is a cofactor for alkaline phosphatase, an enzyme essential for bone formation. Additionally, zinc supports the activity of osteoblasts — the cells responsible for building new bone tissue.

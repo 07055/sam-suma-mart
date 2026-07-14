@@ -38,16 +38,16 @@ The body's ability to manage physical and mental stress without depleting energy
 ## Evidence-Based Natural Stamina Supplements
 
 ### Ginseng (*Panax ginseng*)
-Ginseng is one of the most extensively studied adaptogens for energy and stamina. A systematic review published in the *Journal of Ginseng Research* analyzed over 30 clinical trials and concluded that ginseng supplementation significantly improved physical performance, reduced fatigue, and enhanced cognitive function. Ginseng's active compounds — ginsenosides — support mitochondrial function, modulate cortisol response, and enhance nitric oxide production for improved oxygen delivery.
+Ginseng is one of the most extensively studied adaptogens for energy and stamina. A systematic review published in the [*Journal of Ginseng Research*](https://www.sciencedirect.com/journal/journal-of-ginseng-research) analyzed over 30 clinical trials and concluded that ginseng supplementation significantly improved physical performance, reduced fatigue, and enhanced cognitive function. Ginseng's active compounds — ginsenosides — support mitochondrial function, modulate cortisol response, and enhance nitric oxide production for improved oxygen delivery.
 
 ### Maca Root (*Lepidium meyenii*)
-Maca, a Peruvian root vegetable used for centuries as a vitality tonic, has demonstrated consistent energy-enhancing effects in clinical trials. Research in *Phytotherapy Research* showed that maca supplementation improved self-reported energy and mood in as little as two weeks. Maca's mechanisms include support for adrenal function, optimization of sex hormone balance, and potentiation of cellular energy metabolism through its unique macamides and macaenes.
+Maca, a Peruvian root vegetable used for centuries as a vitality tonic, has demonstrated consistent energy-enhancing effects in clinical trials. Research in [*Phytotherapy Research*](https://onlinelibrary.wiley.com/journal/10991573) showed that maca supplementation improved self-reported energy and mood in as little as two weeks. Maca's mechanisms include support for adrenal function, optimization of sex hormone balance, and potentiation of cellular energy metabolism through its unique macamides and macaenes.
 
 ### Epimedium (*Epimedium sagittatum*)
-Also known as horny goat weed, Epimedium contains icariin — a flavonoid that supports energy through multiple pathways. Icariin inhibits the breakdown of cyclic guanosine monophosphate (cGMP), promoting blood flow and oxygen delivery to tissues. Research in the *Journal of Sexual Medicine* has demonstrated its effectiveness for both physical energy and male reproductive vitality.
+Also known as horny goat weed, Epimedium contains icariin — a flavonoid that supports energy through multiple pathways. Icariin inhibits the breakdown of cyclic guanosine monophosphate (cGMP), promoting blood flow and oxygen delivery to tissues. Research in the [*Journal of Sexual Medicine*](https://academic.oup.com/jsm) has demonstrated its effectiveness for both physical energy and male reproductive vitality.
 
 ### Ashwagandha (*Withania somnifera*)
-Ashwagandha is the premier adaptogen for stress-related fatigue. A randomized controlled trial published in the *Journal of the International Society of Sports Nutrition* demonstrated that ashwagandha supplementation significantly improved cardiorespiratory endurance (VO2 max), muscle recovery, and perceived energy levels in active men. Its withanolide compounds modulate the HPA axis, reducing cortisol-driven energy depletion.
+Ashwagandha is the premier adaptogen for stress-related fatigue. A randomized controlled trial published in the [*Journal of the International Society of Sports Nutrition*](https://jissn.biomedcentral.com/) demonstrated that ashwagandha supplementation significantly improved cardiorespiratory endurance (VO2 max), muscle recovery, and perceived energy levels in active men. Its withanolide compounds modulate the HPA axis, reducing cortisol-driven energy depletion.
 
 ---
 

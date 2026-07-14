@@ -17,7 +17,7 @@ The truth is that minerals do not work in isolation. Calcium absorption depends 
 
 ## The Zinc-Calcium Synergy
 
-The relationship between zinc and calcium in bone health is one of the most important and least understood nutrient interactions. Research published in the *Journal of Bone and Mineral Research* has demonstrated several key aspects of this synergy:
+The relationship between zinc and calcium in bone health is one of the most important and least understood nutrient interactions. Research published in the [*Journal of Bone and Mineral Research*](https://onlinelibrary.wiley.com/journal/15234681) has demonstrated several key aspects of this synergy:
 
 ### Zinc Enhances Calcium Utilization
 Zinc stimulates osteoblast activity, which is the cellular process that deposits calcium into bone matrix. Without adequate zinc, osteoblasts function suboptimally, meaning that even abundant calcium cannot be efficiently incorporated into bone. Studies have shown that zinc supplementation in individuals with adequate calcium intake produces measurable improvements in bone mineral density — an effect that calcium supplementation alone does not achieve.
@@ -41,7 +41,7 @@ Magnesium is required for the conversion of vitamin D into its active form (1,25
 Magnesium directly influences calcium distribution within the body. When magnesium is deficient, calcium may be deposited in soft tissues (arteries, kidneys, muscles) rather than in bones — precisely the opposite of what bone health supplementation aims to achieve.
 
 ### Osteoblast Support
-Like zinc, magnesium supports osteoblast activity and proliferation. Research in *Nutrients* journal has demonstrated that magnesium deficiency reduces osteoblast numbers and activity while simultaneously increasing osteoclast activity, shifting the bone remodeling balance toward net bone loss.
+Like zinc, magnesium supports osteoblast activity and proliferation. Research in [*Nutrients*](https://www.mdpi.com/journal/nutrients) has demonstrated that magnesium deficiency reduces osteoblast numbers and activity while simultaneously increasing osteoclast activity, shifting the bone remodeling balance toward net bone loss.
 
 ---
 
@@ -59,7 +59,7 @@ The effectiveness of a bone supplement depends not just on which minerals it con
 
 ## The Evidence for Multi-Mineral Approaches
 
-A landmark study published in *Osteoporosis International* compared the effects of calcium-only supplementation versus a comprehensive multi-mineral formula on bone mineral density in postmenopausal women over two years. The multi-mineral group showed significantly greater improvements in bone density at the hip and spine compared to the calcium-only group, despite both groups receiving equivalent calcium doses.
+A landmark study published in [*Osteoporosis International*](https://link.springer.com/journal/198) compared the effects of calcium-only supplementation versus a comprehensive multi-mineral formula on bone mineral density in postmenopausal women over two years. The multi-mineral group showed significantly greater improvements in bone density at the hip and spine compared to the calcium-only group, despite both groups receiving equivalent calcium doses.
 
 This finding underscores a fundamental principle of nutritional science: the body does not use nutrients in isolation, and supplements that mimic the complex mineral environment of healthy bone tissue consistently outperform simplified single-nutrient formulas.
 

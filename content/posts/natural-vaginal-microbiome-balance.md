@@ -21,7 +21,7 @@ The vagina maintains a naturally acidic pH typically ranging between 3.8 and 4.5
 
 In addition to lactic acid production, *Lactobacillus* species generate hydrogen peroxide and biosurfactants — natural antimicrobial compounds that further reinforce the protective barrier. Some *Lactobacillus* strains also produce bacteriocins, proteins that directly kill or inhibit competing pathogenic bacteria. This multi-layered defense system is elegant, effective, and remarkably well-adapted to its purpose.
 
-Research published in *Nature Medicine* and the *Journal of Infectious Diseases* has identified several distinct community state types within the vaginal microbiome. The healthiest profiles are those dominated by *Lactobacillus crispatus*, which produces the highest concentrations of lactic acid and hydrogen peroxide and is associated with the lowest rates of infection and inflammation.
+Research published in leading medical journals ([*Nature Medicine*](https://www.nature.com/nm/) and the [*Journal of Infectious Diseases*](https://academic.oup.com/jid)) has identified several distinct community state types within the vaginal microbiome. The healthiest profiles are those dominated by *Lactobacillus crispatus*, which produces the highest concentrations of lactic acid and hydrogen peroxide and is associated with the lowest rates of infection and inflammation.
 
 ---
 

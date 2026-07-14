@@ -30,10 +30,10 @@ This cascade is designed for short-term survival, not chronic activation. When c
 Reishi's triterpenoids — particularly ganoderic acids A, B, C, and D — interact with the HPA axis at multiple points:
 
 ### Reducing CRH Release
-Animal studies published in *Pharmaceutical Biology* have shown that Reishi triterpenoid extracts can reduce hypothalamic CRH output, effectively lowering the initial alarm signal that triggers the stress cascade. This is not suppression — it is calibration, reducing the overreaction of the HPA axis to non-threatening stimuli.
+Animal studies published in [*Pharmaceutical Biology*](https://www.tandfonline.com/journals/lphi20) have shown that Reishi triterpenoid extracts can reduce hypothalamic CRH output, effectively lowering the initial alarm signal that triggers the stress cascade. This is not suppression — it is calibration, reducing the overreaction of the HPA axis to non-threatening stimuli.
 
 ### Normalizing Cortisol Output
-Rather than simply lowering cortisol (which would impair the body's ability to respond to genuine threats), Reishi helps normalize cortisol rhythms. Research demonstrates that Reishi supplementation can reduce chronically elevated cortisol levels while preserving the natural cortisol awakening response — the healthy morning cortisol spike that promotes alertness and energy.
+Rather than simply lowering cortisol (which would impair the body's ability to respond to genuine threats), Reishi helps normalize cortisol rhythms. Some research suggests that Reishi supplementation may help modulate cortisol levels — the healthy morning cortisol spike that promotes alertness and energy.
 
 ### Supporting Adrenal Recovery
 Chronic stress depletes the adrenal glands' capacity to produce cortisol and other stress hormones, leading to the exhaustion phase of the General Adaptation Syndrome. Reishi's antioxidant and hepatoprotective compounds support adrenal gland recovery by reducing oxidative stress in adrenal tissue and supporting the liver's efficient clearance of metabolic waste products from stress hormone metabolism.
@@ -43,13 +43,13 @@ Chronic stress depletes the adrenal glands' capacity to produce cortisol and oth
 ## Beyond the HPA Axis: Additional Stress-Reduction Mechanisms
 
 ### GABA Receptor Modulation
-Gamma-aminobutyric acid (GABA) is the brain's primary inhibitory neurotransmitter — it promotes calm, reduces anxiety, and supports sleep. Reishi compounds have been shown to bind to GABA-A receptors, producing a calming effect similar to but gentler than pharmaceutical anxiolytics, without the risk of dependency or cognitive impairment.
+Gamma-aminobutyric acid (GABA) is the brain's primary inhibitory neurotransmitter — it promotes calm, reduces anxiety, and supports sleep. Some preclinical research suggests Reishi compounds may interact with GABA-A receptors, potentially contributing to calming effects, without the risk of dependency or cognitive impairment.
 
 ### Serotonin Pathway Support
 Emerging research suggests that Reishi polysaccharides may support serotonin production and signaling. Serotonin is a key mood-regulating neurotransmitter, and its dysregulation is implicated in anxiety, depression, and sleep disorders. By supporting healthy serotonin pathways, Reishi contributes to more stable mood and emotional resilience.
 
 ### Anti-Inflammatory Effects
-Chronic stress drives systemic inflammation, which in turn amplifies the stress response in a self-reinforcing cycle. Reishi's anti-inflammatory compounds — particularly the ganoderic acids — break this cycle by reducing inflammatory markers like C-reactive protein and interleukin-6, allowing the stress response to de-escalate more efficiently.
+Chronic stress drives systemic inflammation, which in turn amplifies the stress response in a self-reinforcing cycle. Reishi's anti-inflammatory compounds — particularly the ganoderic acids — break this cycle by may help modulate inflammatory markers, allowing the stress response to de-escalate more efficiently.
 
 ---
 

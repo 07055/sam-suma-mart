@@ -21,7 +21,7 @@ The concept of an "acid mantle" applies to the skin across your entire body, but
 
 When pH is within the optimal 3.8 to 4.5 range, organisms like *Gardnerella vaginalis* (associated with bacterial vaginosis), *Candida albicans* (the primary cause of yeast infections), and *E. coli* (a leading cause of urinary tract infections) struggle to establish colonies. The acidic environment essentially starves these organisms of the alkaline conditions they prefer, keeping their populations in check without the need for pharmaceutical intervention.
 
-However, when pH rises above 4.5 — becoming less acidic or more alkaline — this protective barrier weakens dramatically. Research published in the *British Journal of Obstetrics and Gynaecology* has demonstrated that even a modest pH increase from 4.5 to 5.5 significantly increases the risk of bacterial vaginosis, and that women with vaginal pH above 5.0 are three to four times more likely to develop recurrent infections.
+However, when pH rises above 4.5 — becoming less acidic or more alkaline — this protective barrier weakens dramatically. Research has shown that even a modest increase in vaginal pH can significantly increase the risk of bacterial vaginosis, and that women with elevated vaginal pH face a substantially higher risk of recurrent infections.
 
 ---
 

@@ -19,7 +19,7 @@ Understanding the specific ingredients and mechanisms through which conventional
 
 Sodium lauryl sulfate and its close relative sodium laureth sulfate (SLES) are the surfactants responsible for the satisfying lather in most commercial soaps, body washes, shampoos, and toothpastes. While they effectively remove dirt and oil, they are indiscriminate in their action — stripping away the beneficial bacteria, natural oils, and protective acid mantle that the intimate area depends on for health.
 
-Research published in the *Journal of the Society of Cosmetic Chemists* has documented SLS's ability to disrupt the skin's lipid barrier, increase permeability to irritants and pathogens, and alter the microbial communities that inhabit treated surfaces. In the intimate area, where the tissue is thinner, more permeable, and more sensitive than elsewhere on the body, these effects are amplified. Regular use of SLS-containing products in the intimate area has been associated with increased dryness, irritation, itching, and susceptibility to infections.
+Dermatological research has documented SLS's ability to disrupt the skin's lipid barrier, increase permeability to irritants and pathogens, and alter the microbial communities that inhabit treated surfaces. In the intimate area, where the tissue is thinner, more permeable, and more sensitive than elsewhere on the body, these effects are amplified. Regular use of SLS-containing products in the intimate area has been associated with increased dryness, irritation, itching, and susceptibility to infections.
 
 ---
 
@@ -29,7 +29,7 @@ The word "fragrance" on a product label can represent a cocktail of dozens to hu
 
 In the intimate area, synthetic fragrances pose a double threat. First, they directly irritate sensitive mucosal tissue, causing inflammation, itching, and disruption of the protective epithelial barrier. Second, many fragrance chemicals are antimicrobial, meaning they kill beneficial *Lactobacillus* bacteria alongside harmful organisms, dismantling the natural defense system that protects against infection.
 
-A 2018 study in *Environmental Health Perspectives* found that frequent use of scented intimate products was associated with a significantly increased risk of bacterial vaginosis and yeast infections — a direct consequence of microbiome disruption caused by fragrance chemicals.
+A study in [*Environmental Health Perspectives*](https://doi.org/10.1289/ehp.1510185) found that frequent use of scented intimate products was associated with a significantly increased risk of bacterial vaginosis and yeast infections — a direct consequence of microbiome disruption caused by fragrance chemicals.
 
 ---
 

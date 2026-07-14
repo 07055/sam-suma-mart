@@ -20,7 +20,7 @@ Unlike ordinary coffee that provides only a temporary caffeine lift, Reishi coff
 Modern research has identified several key bioactive compounds in Reishi mushroom that contribute to its remarkable health profile:
 
 ### Polysaccharides (Beta-Glucans)
-These complex sugars are the primary immune-modulating compounds in Reishi. Beta-glucans stimulate the activity of macrophages, natural killer cells, and other immune defenses, helping your body mount a more effective response to threats. Studies published in journals like the *Journal of Ethnopharmacology* have consistently demonstrated Reishi's ability to enhance immune function.
+These complex sugars are the primary immune-modulating compounds in Reishi. Beta-glucans stimulate the activity of macrophages, natural killer cells, and other immune defenses, helping your body mount a more effective response to threats. Research published in peer-reviewed journals including the [*Journal of Ethnopharmacology*](https://www.sciencedirect.com/journal/journal-of-ethnopharmacology) has demonstrated Reishi's ability to modulate immune function.
 
 ### Triterpenoids
 These bitter-tasting compounds are responsible for many of Reishi's anti-inflammatory and adaptogenic effects. Triterpenoids help modulate the body's stress response by influencing the hypothalamic-pituitary-adrenal (HPA) axis, which can lead to reduced cortisol levels, improved sleep quality, and better stress resilience.
@@ -33,7 +33,7 @@ A unique class of compounds found exclusively in Reishi, ganoderic acids support
 ## 7 Evidence-Based Benefits of Drinking Reishi Coffee
 
 ### 1. Immune System Support
-Regular consumption of Reishi has been shown to enhance the production and activity of key immune cells. A study in the *International Immunopharmacology* journal found that Reishi polysaccharides significantly boosted immune function in participants over a 12-week period.
+Regular consumption of Reishi has been shown to enhance the production and activity of key immune cells. Clinical research has shown that Reishi polysaccharides may support immune function with regular supplementation over several weeks.
 
 ### 2. Stress Adaptation and Cortisol Balance
 As an adaptogen, Reishi helps your body maintain equilibrium during periods of physical, mental, or emotional stress. Rather than artificially stimulating or sedating your system, adaptogens like Reishi modulate the stress response, helping you stay balanced and focused.
@@ -45,7 +45,7 @@ Unlike regular coffee which can disrupt sleep patterns, Reishi's calming compoun
 Reishi is rich in antioxidants that neutralize free radicals — unstable molecules that accelerate cellular aging and contribute to chronic disease. Regular antioxidant intake through functional beverages like Reishi coffee supports healthy skin, cognitive function, and overall longevity.
 
 ### 5. Liver Support and Detoxification
-Research published in *Phytotherapy Research* has demonstrated Reishi's hepatoprotective properties, showing that it can help protect liver cells from damage and support the organ's natural detoxification processes.
+Research published in [*Phytotherapy Research*](https://onlinelibrary.wiley.com/journal/10991573) has demonstrated Reishi's hepatoprotective properties, showing that it can help protect liver cells from damage and support the organ's natural detoxification processes.
 
 ### 6. Cardiovascular Health
 Studies suggest that Reishi may help support healthy blood pressure levels already within normal range, improve blood circulation, and support healthy cholesterol profiles — all contributing factors to long-term heart health.

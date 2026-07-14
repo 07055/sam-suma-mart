@@ -26,7 +26,7 @@ These bitter-tasting compounds are responsible for many of Reishi's adaptogenic 
 The complex sugars in Reishi cell walls interact with immune cell receptors to enhance immune surveillance, support macrophage activity, and promote balanced cytokine production. These are the same immune-modulating compounds found in other premium medicinal mushrooms, concentrated to therapeutic levels in quality Reishi extracts.
 
 ### Ganoderic Acids
-A unique class of compounds found exclusively in Reishi, ganoderic acids support liver function, exhibit anti-inflammatory activity, and contribute to the mushroom's reputation as a longevity tonic. Research published in *Phytochemistry* has identified over 100 distinct ganoderic acid structures in Reishi, each with unique biological activities.
+A unique class of compounds found exclusively in Reishi, ganoderic acids support liver function, exhibit anti-inflammatory activity, and contribute to the mushroom's reputation as a longevity tonic. Research published in [*Phytochemistry*](https://www.sciencedirect.com/journal/phytochemistry) has identified over 100 distinct ganoderic acid structures in Reishi, each with unique biological activities.
 
 ---
 
@@ -34,9 +34,9 @@ A unique class of compounds found exclusively in Reishi, ganoderic acids support
 
 The pairing of coffee and Reishi is not arbitrary — it is synergistic. Coffee provides immediate alertness through caffeine's adenosine receptor antagonism, while Reishi's adaptogenic compounds modulate the physiological stress response that caffeine can trigger. The result is a smoother, more sustained energy experience without the sharp spike and subsequent crash that many coffee drinkers experience.
 
-Research in the *Journal of Ethnopharmacology* has demonstrated that Reishi polysaccharides can attenuate caffeine-induced increases in cortisol and adrenaline, effectively buffering the "fight or flight" response that contributes to jitteriness and anxiety in caffeine-sensitive individuals. This does not eliminate caffeine's beneficial alertness effects — it tempers the overstimulation that makes some people avoid coffee or experience afternoon energy crashes.
+Research in the [*Journal of Ethnopharmacology*](https://www.sciencedirect.com/journal/journal-of-ethnopharmacology) has demonstrated that Reishi polysaccharides can attenuate caffeine-induced increases in cortisol and adrenaline, effectively buffering the "fight or flight" response that contributes to jitteriness and anxiety in caffeine-sensitive individuals. This does not eliminate caffeine's beneficial alertness effects — it tempers the overstimulation that makes some people avoid coffee or experience afternoon energy crashes.
 
-Furthermore, Reishi's triterpenoids have been shown to promote relaxation and improve sleep quality, which may seem counterintuitive alongside a caffeinated beverage. However, this combination mirrors the balanced stimulation that traditional Chinese medicine has sought for centuries — alertness without agitation, energy without depletion.
+Furthermore, Reishi's triterpenoids are traditionally associated with promoting relaxation and improving sleep quality, which may seem counterintuitive alongside a caffeinated beverage. However, this combination mirrors the balanced stimulation that traditional Chinese medicine has sought for centuries — alertness without agitation, energy without depletion.
 
 ---
 

@@ -40,16 +40,16 @@ The parallel discoveries of PSK and PSP from the same mushroom species, by indep
 While the earliest Turkey Tail research focused on cancer immunotherapy support, modern clinical applications have expanded dramatically. Current research areas include:
 
 ### Immune Recovery After Illness
-Studies have shown that Turkey Tail extracts help restore immune cell counts and activity levels following viral infections, bacterial illnesses, and other immune challenges. Research published in the *Journal of Alternative and Complementary Medicine* demonstrated that participants taking Turkey Tail extract showed faster recovery of NK cell activity and T-cell populations compared to placebo groups.
+Studies have shown that Turkey Tail extracts help restore immune cell counts and activity levels following viral infections, bacterial illnesses, and other immune challenges. Research published in the [*Journal of Alternative and Complementary Medicine*](https://www.liebertpub.com/journal/acm) demonstrated that participants taking Turkey Tail extract showed faster recovery of NK cell activity and T-cell populations compared to placebo groups.
 
 ### Age-Related Immune Decline
 Immunosenescence — the gradual deterioration of immune function with age — is a major factor in the increased susceptibility of older adults to infections and chronic diseases. Clinical trials have shown that Turkey Tail supplementation can partially reverse age-related immune decline, increasing NK cell cytotoxicity and improving T-cell proliferation in elderly participants.
 
 ### Gut Microbiome Restoration
-Multiple clinical studies have confirmed that Turkey Tail polysaccharides function as effective prebiotics, increasing populations of beneficial gut bacteria. Given that approximately 70 percent of immune tissue resides in the gut, this microbiome support represents a fundamental mechanism through which Turkey Tail enhances overall immune function.
+Multiple clinical studies have confirmed that Turkey Tail polysaccharides function as effective prebiotics, increasing populations of beneficial gut bacteria. Given that a substantial portion of immune tissue resides in the gut, this microbiome support represents a fundamental mechanism through which Turkey Tail enhances overall immune function.
 
 ### Respiratory and Sinus Health
-Research has demonstrated that Turkey Tail extracts support healthy respiratory function and sinus health, likely through the combination of immune modulation and anti-inflammatory effects. Participants in clinical trials reported improved respiratory comfort and reduced frequency of seasonal immune challenges.
+Some research suggests Turkey Tail extracts may support respiratory comfort. Some participants in clinical studies have reported improvements in respiratory comfort.
 
 ---
 

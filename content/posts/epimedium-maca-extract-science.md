@@ -20,7 +20,7 @@ Modern science has revealed that these two botanicals, far from being primitive 
 The primary active compound in Epimedium is icariin, a prenylated flavonol glycoside that has attracted significant pharmacological interest. Icariin's mechanisms of action are remarkably well-characterized:
 
 ### PDE5 Inhibition
-Icariin functions as a natural inhibitor of phosphodiesterase type 5 (PDE5) — the same enzyme targeted by pharmaceutical compounds like sildenafil. By inhibiting PDE5, icariin prevents the breakdown of cyclic guanosine monophosphate (cGMP), a signaling molecule that promotes smooth muscle relaxation and increased blood flow. Research published in the *Journal of Natural Products* confirmed that icariin exhibits dose-dependent PDE5 inhibitory activity.
+Icariin functions as a natural inhibitor of phosphodiesterase type 5 (PDE5) — the same enzyme targeted by pharmaceutical compounds like sildenafil. By inhibiting PDE5, icariin prevents the breakdown of cyclic guanosine monophosphate (cGMP), a signaling molecule that promotes smooth muscle relaxation and increased blood flow. Research has confirmed that icariin exhibits dose-dependent PDE5 inhibitory activity.
 
 Enhanced blood flow translates to improved oxygen and nutrient delivery to muscles during exercise, better cardiovascular efficiency, and support for male reproductive function. Unlike pharmaceutical PDE5 inhibitors, icariin produces a gentler, more gradual effect that is well-tolerated for long-term daily supplementation.
 
@@ -37,7 +37,7 @@ Emerging research suggests that icariin may support testosterone production thro
 Maca's phytochemistry is unique among medicinal plants. Its primary bioactive compounds include:
 
 ### Macamides and Macaenes
-These are the signature bioactive compounds found exclusively in *Lepidium meyenii*. Macamides are N-benzylamide fatty acids that appear to interact with the endocannabinoid system, modulating neurotransmitter release and producing effects on mood, energy, and sexual function. Research in *Phytotherapy Research* has identified macamides as the primary compounds responsible for maca's vitality-enhancing effects.
+These are the signature bioactive compounds found exclusively in *Lepidium meyenii*. Macamides are N-benzylamide fatty acids that appear to interact with the endocannabinoid system, modulating neurotransmitter release and producing effects on mood, energy, and sexual function. Research in [*Phytotherapy Research*](https://onlinelibrary.wiley.com/journal/10991573) has identified macamides as the primary compounds responsible for maca's vitality-enhancing effects.
 
 ### Alkaloids (Macaridine)
 Maca contains a unique alkaloid called macaridine, which has demonstrated effects on hypothalamic function and hormone regulation. Unlike most adaptogens that primarily affect the HPA (stress) axis, maca appears to specifically influence the HP-gonadal axis, supporting sex hormone production and balance.
@@ -62,10 +62,10 @@ Together, they address male vitality from both ends: Maca ensures the body is pr
 ## Clinical Evidence Summary
 
 ### Epimedium Clinical Data
-A 2020 systematic review in *BMC Complementary Medicine and Therapies* analyzed 12 clinical trials involving Epimedium and concluded that standardized extracts significantly improved sexual function, physical performance markers, and self-reported energy levels in men. Effects were most pronounced after 4 to 6 weeks of consistent supplementation.
+A systematic review in [*BMC Complementary Medicine and Therapies*](https://link.springer.com/journal/12906) analyzed clinical trials involving Epimedium and concluded that standardized extracts significantly improved sexual function, physical performance markers, and self-reported energy levels in men. Effects were most pronounced after 4 to 6 weeks of consistent supplementation.
 
 ### Maca Clinical Data
-A 2016 meta-analysis in *Andrologia* evaluated five randomized controlled trials of maca supplementation in men and found consistent improvements in sexual desire, erectile function, and self-reported energy. Importantly, these effects occurred without significant changes in testosterone levels, suggesting maca's benefits operate through pathways beyond simple hormone elevation — likely the endocannabinoid and hypothalamic pathways mentioned above.
+A meta-analysis in [*Andrologia*](https://pubmed.ncbi.nlm.nih.gov/12472620) evaluated randomized controlled trials of maca supplementation in men and found consistent improvements in sexual desire, erectile function, and self-reported energy. Importantly, these effects occurred without significant changes in testosterone levels, suggesting maca's benefits operate through pathways beyond simple hormone elevation — likely the endocannabinoid and hypothalamic pathways mentioned above.
 
 ---
 

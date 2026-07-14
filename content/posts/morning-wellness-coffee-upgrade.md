@@ -26,7 +26,7 @@ The coffee component of Reishi coffee provides the immediate caffeine-driven ale
 What you do not get from conventional coffee is stress protection. Reishi's adaptogenic triterpenoids modulate the HPA axis, helping your body respond to the day's inevitable stresses with greater composure and less physiological disruption. Where conventional coffee can amplify the stress response (increasing cortisol and adrenaline), Reishi coffee tempers it, creating a state of alert calm rather than anxious stimulation.
 
 ### 3. Immune Priming
-Morning is when your immune system's circadian rhythm peaks. NK cell activity, T-cell proliferation, and cytokine production all reach their highest levels in the early hours of the day. Consuming immune-supporting beta-glucans from Reishi during this window may maximize their immune-priming effects, giving your defenses their strongest possible start.
+Morning is when your immune system's circadian rhythm peaks. Some research suggests that immune cell activity may follow circadian patterns, peaking in the early hours. Consuming immune-supporting beta-glucans from Reishi during this window may maximize their immune-priming effects, giving your defenses their strongest possible start.
 
 ### 4. Antioxidant Loading
 Both coffee and Reishi contribute significant antioxidant compounds. Coffee is one of the largest sources of dietary antioxidants in Western diets, contributing polyphenols, chlorogenic acid, and melanoidins. Reishi adds its own phenolic compounds and flavonoids. Together, they provide a substantial antioxidant load that helps protect cells from the oxidative stress accumulated during the previous night's metabolic activity.

@@ -21,7 +21,7 @@ Every cellular process generates reactive oxygen species (ROS) as metabolic bypr
 
 Oxidative stress damages cellular components indiscriminately: lipids in cell membranes become oxidized (lipid peroxidation), proteins lose their functional shape, and DNA strands accumulate breaks and mutations. This cumulative damage is a primary driver of aging and is implicated in virtually every chronic degenerative condition.
 
-Turkey Tail mushroom extracts contain a concentrated matrix of phenolic compounds, flavonoids, and polysaccharides that function as potent free radical scavengers. Research published in *Food Chemistry* and the *Journal of Ethnopharmacology* has demonstrated that Turkey Tail extracts exhibit significant DPPH radical scavenging activity, hydroxyl radical neutralization, and superoxide anion inhibition. These antioxidants work at the cellular membrane level, the cytoplasmic level, and even within the nucleus to protect critical molecular structures from oxidative degradation.
+Turkey Tail mushroom extracts contain a concentrated matrix of phenolic compounds, flavonoids, and polysaccharides that function as potent free radical scavengers. Research published in [*Food Chemistry*](https://www.sciencedirect.com/journal/food-chemistry) and the [*Journal of Ethnopharmacology*](https://www.sciencedirect.com/journal/journal-of-ethnopharmacology) has demonstrated that Turkey Tail extracts exhibit significant DPPH radical scavenging activity, hydroxyl radical neutralization, and superoxide anion inhibition. These antioxidants work at the cellular membrane level, the cytoplasmic level, and even within the nucleus to protect critical molecular structures from oxidative degradation.
 
 ---
 
@@ -29,7 +29,7 @@ Turkey Tail mushroom extracts contain a concentrated matrix of phenolic compound
 
 Beyond passive antioxidant protection, the polysaccharides in Turkey Tail extracts appear to actively support the body's endogenous DNA repair mechanisms. Every cell in your body sustains thousands of DNA lesions daily from normal metabolic activity alone, not counting external damage from environmental factors. Cells possess sophisticated repair machinery — including base excision repair, nucleotide excision repair, and mismatch repair pathways — to correct this damage before it accumulates.
 
-Research conducted at the National Taiwan University and published in the *Journal of Agricultural and Food Chemistry* demonstrated that Turkey Tail polysaccharides can enhance the expression of genes involved in DNA repair pathways. By upregulating these repair mechanisms, Turkey Tail extracts may help cells maintain genomic integrity more efficiently, reducing the accumulation of mutations that can compromise cellular function over time.
+Research conducted at the National Taiwan University and published in the [*Journal of Agricultural and Food Chemistry*](https://pubs.acs.org/journal/jafcau) demonstrated that Turkey Tail polysaccharides can enhance the expression of genes involved in DNA repair pathways. By upregulating these repair mechanisms, Turkey Tail extracts may help cells maintain genomic integrity more efficiently, reducing the accumulation of mutations that can compromise cellular function over time.
 
 ---
 
@@ -37,7 +37,7 @@ Research conducted at the National Taiwan University and published in the *Journ
 
 The immune system does far more than fight infections. Through a process called immune surveillance, specialized immune cells — particularly natural killer cells and cytotoxic T lymphocytes — continuously patrol the body, identifying and eliminating cells that have become damaged, dysfunctional, or potentially harmful. This quality control system is essential for maintaining tissue health and preventing the accumulation of abnormal cells.
 
-Turkey Tail polysaccharopeptides have been extensively shown to enhance immune surveillance by increasing the activity, proliferation, and cytotoxic capacity of NK cells and T lymphocytes. A landmark study published in *Immunological Investigations* demonstrated that participants supplementing with Turkey Tail extract showed measurably enhanced NK cell activity within just four weeks. This enhanced surveillance means more efficient identification and removal of compromised cells, supporting the body's natural maintenance of healthy tissue.
+Turkey Tail polysaccharopeptides have been extensively shown to enhance immune surveillance by increasing the activity, proliferation, and cytotoxic capacity of NK cells and T lymphocytes. A landmark study published in [*Immunological Investigations*](https://www.tandfonline.com/journal/lei20) demonstrated that participants supplementing with Turkey Tail extract showed measurably enhanced NK cell activity within just four weeks. This enhanced surveillance means more efficient identification and removal of compromised cells, supporting the body's natural maintenance of healthy tissue.
 
 ---
 

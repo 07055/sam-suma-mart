@@ -9,7 +9,7 @@ category: "Oral Health"
 
 ## Introduction: The Cavity Crisis Is Not About Fluoride Alone
 
-Despite decades of fluoride promotion, dental cavities remain one of the most prevalent chronic conditions worldwide. The World Health Organization estimates that 2.4 billion people globally suffer from untreated permanent tooth decay, and even in developed nations with widespread fluoride use, cavity rates remain stubbornly high. This suggests that the cavity problem is more complex than simply increasing fluoride exposure, and that a more holistic approach to tooth protection is needed.
+Despite decades of fluoride promotion, dental cavities remain one of the most prevalent chronic conditions worldwide. [The World Health Organization estimates that 2.4 billion people globally suffer from untreated permanent tooth decay](https://www.who.int/publications/i/item/9241548185), and even in developed nations with widespread fluoride use, cavity rates remain stubbornly high. This suggests that the cavity problem is more complex than simply increasing fluoride exposure, and that a more holistic approach to tooth protection is needed.
 
 The truth is that cavity prevention depends on a constellation of factors: the balance of bacteria in your mouth, the mineral density of your enamel, the pH of your saliva, your dietary habits, and the overall health of your gum tissue. While fluoride plays one role in this complex system, effective cavity protection requires addressing all of these factors — and several of the most important ones are effectively supported by natural, plant-based ingredients and minerals.
 
@@ -31,7 +31,7 @@ Effective cavity prevention therefore requires either reducing acid production (
 ## Natural Approaches to Each Cavity Prevention Mechanism
 
 ### Antimicrobial Botanicals
-Neem, tea tree oil, and clove oil have demonstrated significant antimicrobial activity against *Streptococcus mutans*, the primary acid-producing bacterium responsible for cavities. Research published in the *Journal of Dentistry* has shown that neem extract reduces *S. mutans* colony counts by up to 60 percent when used as a regular oral rinse. By reducing the population of acid-producing bacteria, these botanicals address cavity formation at its source.
+Neem, tea tree oil, and clove oil have demonstrated significant antimicrobial activity against *Streptococcus mutans*, the primary acid-producing bacterium responsible for cavities. Research suggests that neem extract may help reduce *S. mutans* colony counts when used as a regular oral rinse. By reducing the population of acid-producing bacteria, these botanicals address cavity formation at its source.
 
 ### pH Buffering
 Maintaining a neutral oral pH is critical for preventing demineralization. Certain natural mineral compounds — including calcium carbonate, dicalcium phosphate, and hydroxyapatite — actively buffer oral pH, neutralizing the acids produced by bacteria before they can attack enamel. Some herbal formulations incorporate these buffering minerals alongside antimicrobial botanicals for dual-action cavity protection.

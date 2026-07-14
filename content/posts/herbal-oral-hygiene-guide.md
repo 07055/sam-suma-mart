@@ -26,16 +26,16 @@ These were not primitive practices awaiting improvement by industrial chemistry.
 ## Key Herbal Ingredients and Their Oral Health Benefits
 
 ### Neem (*Azadirachta indica*)
-Neem is perhaps the most extensively studied botanical in oral health science. Research published in the *Journal of Natural Products* has identified nimbidin, nimbinin, and azadirachtin as neem's primary bioactive compounds for oral care. These compounds demonstrate significant antibacterial activity against *Streptococcus mutans* (the primary cavity-causing bacterium), *Porphyromonas gingivalis* (associated with gum disease), and *Fusobacterium nucleatum* (linked to both cavities and periodontal disease). Neem also exhibits anti-plaque properties, inhibiting the formation of dental biofilm that leads to tartar buildup.
+Neem is perhaps the most extensively studied botanical in oral health science. Research has identified nimbidin, nimbinin, and azadirachtin as neem's primary bioactive compounds. These compounds demonstrate significant antibacterial activity against *Streptococcus mutans* (the primary cavity-causing bacterium), *Porphyromonas gingivalis* (associated with gum disease), and *Fusobacterium nucleatum* (linked to both cavities and periodontal disease). Neem also exhibits anti-plaque properties, inhibiting the formation of dental biofilm that leads to tartar buildup.
 
 ### Clove Oil (*Syzygium aromaticum*)
-Clove oil's primary active compound, eugenol, has been used in dentistry for over a century as a natural analgesic and antiseptic. Research in the *Journal of Dentistry* has confirmed eugenol's effectiveness against oral pathogens, its ability to reduce gum inflammation, and its natural pain-relieving properties that provide comfort for sensitive teeth and irritated gum tissue.
+Clove oil's primary active compound, eugenol, has been used in dentistry for over a century as a natural analgesic and antiseptic. Research in the [*Journal of Dentistry*](https://www.sciencedirect.com/journal/journal-of-dentistry) has confirmed eugenol's effectiveness against oral pathogens, its ability to reduce gum inflammation, and its natural pain-relieving properties that provide comfort for sensitive teeth and irritated gum tissue.
 
 ### Tea Tree Oil (*Melaleuca alternifolia*)
-Tea tree oil demonstrates broad-spectrum antimicrobial activity against oral bacteria, fungi, and viruses. Its primary active compound, terpinen-4-ol, disrupts the cell membranes of pathogenic microorganisms while being less disruptive to beneficial oral bacteria. Studies published in the *Australian Dental Journal* have shown that tea tree oil reduces gingival inflammation and bleeding on probing.
+Tea tree oil demonstrates broad-spectrum antimicrobial activity against oral bacteria, fungi, and viruses. Its primary active compound, terpinen-4-ol, disrupts the cell membranes of pathogenic microorganisms while being less disruptive to beneficial oral bacteria. Studies published in the [*Australian Dental Journal*](https://onlinelibrary.wiley.com/journal/18347819) have shown that tea tree oil reduces gingival inflammation and bleeding on probing.
 
 ### Aloe Vera (*Aloe barbadensis*)
-Aloe vera contributes anti-inflammatory and wound-healing properties to oral care. Its acemannan compound promotes gum tissue repair, while its natural salicylic acid provides gentle anti-inflammatory action. Research has shown that aloe vera-based oral rinses reduce plaque and gingivitis comparably to chlorhexidine — the gold-standard prescription antimicrobial rinse — without the staining and taste alteration side effects.
+Aloe vera contributes anti-inflammatory and wound-healing properties to oral care. Its acemannan compound promotes gum tissue repair, while its natural salicylic acid provides gentle anti-inflammatory action. Some comparative studies suggest that aloe vera-based oral rinses may reduce plaque and gingivitis comparably to chlorhexidine, without the staining and taste alteration side effects.
 
 ### Myrrh (*Commiphora myrrha*)
 Myrrh has been used in oral care for millennia, and modern research has identified commiphoric acid and terpenoids as compounds with significant antimicrobial and astringent properties. Myrrh helps tighten gum tissue, reduce bleeding, and combat the bacteria responsible for periodontal disease.
@@ -46,7 +46,7 @@ Myrrh has been used in oral care for millennia, and modern research has identifi
 
 The fundamental difference between herbal and conventional oral care lies in their approach to the oral microbiome. Conventional toothpaste with triclosan and aggressive surfactants tends to indiscriminately eliminate bacteria — both harmful and beneficial. Herbal formulations tend to modulate the oral microbiome more selectively, suppressing pathogenic species while preserving the commensal bacteria that contribute to oral health.
 
-Research published in the *Journal of Clinical Periodontology* has demonstrated that this selective modulation is more effective for long-term oral health than aggressive antimicrobial approaches, which can lead to recolonization by pathogenic species once the antimicrobial effect wears off.
+Research published in the [*Journal of Clinical Periodontology*](https://onlinelibrary.wiley.com/journal/1600051x) has demonstrated that this selective modulation is more effective for long-term oral health than aggressive antimicrobial approaches, which can lead to recolonization by pathogenic species once the antimicrobial effect wears off.
 
 ---
 

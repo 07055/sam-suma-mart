@@ -37,11 +37,11 @@ Beyond PSK and PSP, Turkey Tail contains a rich matrix of beta-glucans — long-
 
 Immune modulation is a concept that confuses many people. It does not mean "stimulating" the immune system indiscriminately, which could lead to autoimmune reactions. Instead, modulation means helping the immune system respond appropriately — ramping up defenses when threats are detected and dialing back inflammatory responses when they become excessive.
 
-Turkey Tail excels at this balancing act. The polysaccharides in Turkey Tail interact with dendritic cells, macrophages, and lymphocytes to fine-tune the immune response. Research published in the *International Journal of Medicinal Mushrooms* has demonstrated that Turkey Tail extracts can increase NK cell activity by significant margins within weeks of supplementation. For individuals whose immune systems have been weakened by age, stress, environmental toxins, or medical treatments, this gentle but effective modulation can make a meaningful difference in daily resilience.
+Turkey Tail excels at this balancing act. The polysaccharides in Turkey Tail interact with dendritic cells, macrophages, and lymphocytes to fine-tune the immune response. Research has shown that Turkey Tail extracts may support NK cell activity with regular supplementation. For individuals whose immune systems have been weakened by age, stress, environmental toxins, or medical treatments, this gentle but effective modulation can make a meaningful difference in daily resilience.
 
 ### Supporting Gut-Immune Connection
 
-An often-overlooked aspect of Turkey Tail's immune support involves the gut. Approximately 70 percent of the body's immune tissue resides in the gastrointestinal tract. Turkey Tail polysaccharides act as prebiotics — food for beneficial gut bacteria — helping to maintain a healthy microbiome that directly influences immune function. Studies have shown that regular Turkey Tail consumption increases populations of *Bifidobacterium* and *Lactobacillus*, two bacterial genera critical for digestive health and immune regulation.
+An often-overlooked aspect of Turkey Tail's immune support involves the gut. A substantial portion of the body's immune tissue is located in the gastrointestinal tract. Turkey Tail polysaccharides act as prebiotics — food for beneficial gut bacteria — helping to maintain a healthy microbiome that directly influences immune function. Studies have shown that regular Turkey Tail consumption increases populations of *Bifidobacterium* and *Lactobacillus*, two bacterial genera critical for digestive health and immune regulation.
 
 ---
 
@@ -49,7 +49,7 @@ An often-overlooked aspect of Turkey Tail's immune support involves the gut. App
 
 Beyond immune modulation, Turkey Tail delivers potent antioxidant protection through its high concentration of phenolic compounds, flavonoids, and the same polysaccharides that drive immune benefits. Oxidative stress — the cumulative damage caused by free radicals — is a fundamental driver of aging and chronic disease. Turkey Tail's antioxidant compounds neutralize these free radicals, protecting cellular DNA, proteins, and lipids from oxidative damage.
 
-Research from *Oxidative Medicine and Cellular Longevity* journal has shown that Turkey Tail extracts demonstrate significant free radical scavenging activity, comparable to or exceeding that of many conventional antioxidant supplements. This dual action — combining immune support with antioxidant protection — makes Turkey Tail a uniquely comprehensive supplement for long-term cellular health.
+Research has shown that Turkey Tail extracts demonstrate free radical scavenging activity, comparable to or exceeding that of many conventional antioxidant supplements. This dual action — combining immune support with antioxidant protection — makes Turkey Tail a uniquely comprehensive supplement for long-term cellular health.
 
 ---
 

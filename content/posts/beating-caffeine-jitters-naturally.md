@@ -30,7 +30,7 @@ The crash occurs as caffeine wears off. The blocked adenosine receptors suddenly
 Reishi mushroom contains compounds that directly modulate the body's stress response pathways, creating a natural buffer against caffeine's overstimulating effects:
 
 ### Triterpenoid-HPA Axis Modulation
-The triterpenoids in Reishi interact with the hypothalamic-pituitary-adrenal (HPA) axis — the central command system for the body's stress response. By modulating this system, Reishi helps prevent the excessive cortisol and adrenaline surge that causes jitters, while still allowing the beneficial alertness effects of caffeine to proceed. Research published in *Phytomedicine* has demonstrated that Reishi triterpenoids can reduce stress-induced cortisol elevations by clinically significant margins.
+The triterpenoids in Reishi interact with the hypothalamic-pituitary-adrenal (HPA) axis — the central command system for the body's stress response. By modulating this system, Reishi helps prevent the excessive cortisol and adrenaline surge that causes jitters, while still allowing the beneficial alertness effects of caffeine to proceed. Research suggests that Reishi triterpenoids may help modulate stress-related cortisol elevations.
 
 ### Polysaccharide-Mediated Calming
 Reishi polysaccharides appear to have a direct calming effect on the nervous system through modulation of GABA receptors — the same inhibitory neurotransmitter system targeted by anti-anxiety medications, but through gentler, more gradual mechanisms. This creates a baseline of calm that counterbalances caffeine's stimulatory effects without neutralizing them entirely.

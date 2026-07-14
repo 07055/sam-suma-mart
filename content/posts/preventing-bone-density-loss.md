@@ -17,17 +17,17 @@ After peak bone mass, the equation reverses. Osteoclast activity gradually outpa
 
 ## The Global Scale of the Problem
 
-The International Osteoporosis Foundation estimates that osteoporosis affects approximately 200 million people worldwide. In the United States alone, an estimated 10 million people have osteoporosis and another 44 million have low bone density. The condition causes approximately 8.9 million fractures annually — a fracture every 3.5 seconds.
+The International Osteoporosis Foundation estimates that osteoporosis affects approximately 200 million people worldwide. In the United States alone, tens of millions of people have osteoporosis or low bone density, resulting in millions of fractures annually.
 
-The economic burden is staggering. In Europe, the annual cost of osteoporotic fractures exceeds 37 billion euros. In the United States, osteoporotic fractures cost the healthcare system an estimated 19 billion dollars annually, a figure projected to rise as populations age.
+The economic burden is staggering. In Europe, the annual healthcare costs of osteoporotic fractures run into tens of billions of euros. In the United States, osteoporotic fractures cost healthcare systems billions of dollars annually, a figure projected to rise as populations age.
 
-But the human cost far exceeds the financial one. Hip fractures — the most serious consequence of osteoporosis — carry a mortality rate of 20 to 30 percent within one year. Among those who survive, many never regain their previous level of function, requiring permanent assistance with daily activities.
+But the human cost far exceeds the financial one. Hip fractures — the most serious consequence of osteoporosis — carry a significant mortality risk within the first year. Among those who survive, many never regain their previous level of function, requiring permanent assistance with daily activities.
 
 ---
 
 ## When Bone Density Loss Begins
 
-The critical insight about osteoporosis prevention is that it must begin decades before the disease becomes apparent. Peak bone mass is the single strongest predictor of lifetime fracture risk, and it is determined primarily by genetic factors (approximately 60 to 80 percent) and modifiable lifestyle factors (approximately 20 to 40 percent).
+The critical insight about osteoporosis prevention is that it must begin decades before the disease becomes apparent. Peak bone mass is the single strongest predictor of lifetime fracture risk, and it is determined primarily by genetic factors and modifiable lifestyle factors.
 
 ### Ages 20-35: Building the Bank
 During this period, bone formation exceeds resorption, and each year of optimal nutrition and weight-bearing exercise adds to your bone "savings account." Adequate calcium, zinc, magnesium, vitamin D, and protein intake during this period maximizes peak bone mass.

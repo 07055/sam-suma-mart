@@ -39,7 +39,7 @@ Independently discovered by Chinese researchers at the Shanghai Institute of Mat
 
 PSP primarily enhances macrophage function — these large immune cells serve as the body's first responders, engulfing pathogens, damaged cells, and foreign particles. PSP-stimulated macrophages show increased phagocytic activity, meaning they become more efficient at clearing threats. Additionally, PSP promotes the secretion of tumor necrosis factor alpha (TNF-α) and interleukin-1 beta (IL-1β), cytokines that activate downstream immune cascades.
 
-PSP has also demonstrated remarkable prebiotic activity in the gut. By selectively promoting the growth of beneficial bacterial species while inhibiting pathogenic organisms, PSP helps maintain the gut microbiome balance that underpins approximately 70 percent of the body's immune function. This gut-immune axis connection represents one of the most exciting frontiers in modern immunology.
+PSP has also demonstrated remarkable prebiotic activity in the gut. By selectively promoting the growth of beneficial bacterial species while inhibiting pathogenic organisms, PSP helps maintain the gut microbiome balance that underpins a substantial portion of the body's immune function. This gut-immune axis connection represents one of the most exciting frontiers in modern immunology.
 
 ---
 

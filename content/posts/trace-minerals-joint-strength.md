@@ -20,7 +20,7 @@ Your bones contain over 20 distinct minerals, each playing specific roles in the
 Zinc is arguably the most important trace mineral for bone health, yet it receives far less attention than calcium. Zinc serves multiple critical functions in skeletal metabolism:
 
 ### Osteoblast Activation
-Osteoblasts — the cells responsible for building new bone tissue — require zinc for their proliferation, differentiation, and mineralizing activity. Research published in the *Journal of Nutrition* has demonstrated that zinc deficiency directly impairs osteoblast function, reducing the rate of new bone formation even when calcium intake is adequate.
+Osteoblasts — the cells responsible for building new bone tissue — require zinc for their proliferation, differentiation, and mineralizing activity. Research published in the [*Journal of Nutrition*](https://academic.oup.com/jn) has demonstrated that zinc deficiency directly impairs osteoblast function, reducing the rate of new bone formation even when calcium intake is adequate.
 
 ### Collagen Synthesis
 Bone is not purely mineral — approximately 35 percent of bone mass is organic matrix, predominantly Type I collagen. Zinc is an essential cofactor for the enzymes (prolyl hydroxylase and lysyl hydroxylase) that synthesize and cross-link collagen fibers, providing the flexible scaffold upon which minerals deposit. Without adequate zinc, collagen formation is impaired, resulting in structurally weaker bone.
@@ -37,7 +37,7 @@ Zinc modulates the activity of parathyroid hormone (PTH) and calcitonin, the two
 
 Manganese plays a specialized role in bone health through its support of glycosaminoglycan (GAG) synthesis. GAGs are essential components of cartilage, the flexible tissue that cushions joints and covers bone surfaces. Without adequate manganese, GAG synthesis is impaired, leading to reduced cartilage integrity, increased joint stiffness, and compromised bone surface protection.
 
-Research in *Biological Trace Element Research* has shown that manganese deficiency in animal models leads to significant reductions in bone density and cartilage quality, effects that are reversed with manganese supplementation. For individuals concerned with both bone density and joint health, manganese is a non-negotiable nutrient.
+Research in [*Biological Trace Element Research*](https://link.springer.com/journal/12011) has shown that manganese deficiency in animal models leads to significant reductions in bone density and cartilage quality, effects that are reversed with manganese supplementation. For individuals concerned with both bone density and joint health, manganese is a non-negotiable nutrient.
 
 ---
 
@@ -51,7 +51,7 @@ Additionally, copper possesses significant antioxidant activity through its role
 
 ## Boron: The Unsung Guardian of Bone Minerals
 
-Boron is a trace mineral that most supplement consumers have never heard of, yet it plays a significant role in bone health by reducing urinary excretion of calcium, magnesium, and phosphorus — essentially helping your body retain the minerals it needs for bone maintenance. Research in the *Journal of Trace Elements in Medicine and Biology* has shown that boron supplementation can significantly reduce markers of bone turnover, suggesting a bone-protective effect.
+Boron is a trace mineral that most supplement consumers have never heard of, yet it plays a significant role in bone health by reducing urinary excretion of calcium, magnesium, and phosphorus — essentially helping your body retain the minerals it needs for bone maintenance. Research in the [*Journal of Trace Elements in Medicine and Biology*](https://www.sciencedirect.com/journal/journal-of-trace-elements-in-medicine-and-biology) has shown that boron supplementation can significantly reduce markers of bone turnover, suggesting a bone-protective effect.
 
 Boron also supports the metabolism of vitamin D and estrogen — two hormones critically involved in calcium absorption and bone maintenance. By supporting these hormonal pathways, boron provides an indirect but important contribution to skeletal health.
 
