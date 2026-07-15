@@ -1,7 +1,7 @@
 ---
 title: "The Science of Epimedium and Maca: Nature's Most Potent Botanicals for Male Vitality"
 description: "A deep scientific exploration of Epimedium (horny goat weed) and Maca root — two of the most research-validated botanicals for male energy, stamina, hormonal support, and overall vitality."
-date: "2026-07-13"
+date: "2026-07-06"
 coverImage: "/uploads/bf%20suma%20photos/better%20life/women's%20Beauty/BF%20SUMA%20X%20Power%20Man%20Capsules%2030%20capsules%20-ksh%206530.jpg"
 productSlug: "bf-suma-x-power-man-capsules-30-capsules"
 category: "Men's Vitality"

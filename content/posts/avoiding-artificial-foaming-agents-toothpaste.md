@@ -1,7 +1,7 @@
 ---
 title: "Why You Should Avoid Sodium Lauryl Sulfate and Artificial Foaming Agents in Your Toothpaste"
 description: "The uncomfortable truth about SLS, triclosan, and synthetic foaming agents in conventional toothpaste — what they actually do to your mouth and why natural alternatives are better."
-date: "2026-07-13"
+date: "2026-04-26"
 coverImage: "/uploads/bf suma photos/Suma Self Care/dr-ts-toothpaste.jpg"
 productSlug: "dr-ts-toothpaste"
 category: "Oral Health"

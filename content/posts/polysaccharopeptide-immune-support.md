@@ -1,7 +1,7 @@
 ---
 title: "Polysaccharopeptides Explained: How PSP and PSK Power Your Immune System From Within"
 description: "A deep dive into polysaccharopeptides PSP and PSK — the powerful immune-modulating compounds found in Turkey Tail mushroom that support your body's natural defenses at the cellular level."
-date: "2026-07-13"
+date: "2026-05-24"
 coverImage: "/uploads/bf%20suma%20photos/immunity%20builders/Refined%20Yunzhi%20Essence%20-%2060%20capsules%20-ksh%2074,500.jpg"
 productSlug: "refined-yunzhi-essence-60-capsules"
 category: "Immune Health"

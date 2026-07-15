@@ -1,7 +1,7 @@
 ---
 title: "Understanding Your Vaginal Microbiome: The Delicate Ecosystem That Protects You"
 description: "Learn how the vaginal microbiome works, why its bacterial balance is essential for feminine health, and how everyday choices can either support or disrupt this critical ecosystem."
-date: "2026-07-13"
+date: "2026-06-29"
 coverImage: "/uploads/bf%20suma%20photos/Suma%20Self%20Care/Bf%20suma%20femicare%20feminine%20cleanser%20ksh%201,750.jpg"
 productSlug: "bf-suma-femicare-feminine-cleanser"
 category: "Feminine Health"
@@ -21,7 +21,7 @@ The vagina maintains a naturally acidic pH typically ranging between 3.8 and 4.5
 
 In addition to lactic acid production, *Lactobacillus* species generate hydrogen peroxide and biosurfactants — natural antimicrobial compounds that further reinforce the protective barrier. Some *Lactobacillus* strains also produce bacteriocins, proteins that directly kill or inhibit competing pathogenic bacteria. This multi-layered defense system is elegant, effective, and remarkably well-adapted to its purpose.
 
-Research published in leading medical journals ([*Nature Medicine*](https://www.nature.com/nm/) and the [*Journal of Infectious Diseases*](https://academic.oup.com/jid)) has identified several distinct community state types within the vaginal microbiome. The healthiest profiles are those dominated by *Lactobacillus crispatus*, which produces the highest concentrations of lactic acid and hydrogen peroxide and is associated with the lowest rates of infection and inflammation.
+Published microbiome research ([Ravel et al., 2011](https://www.pnas.org/doi/10.1073/pnas.10026111107)) has identified several distinct community state types within the vaginal microbiome. The healthiest profiles are those dominated by *Lactobacillus crispatus*, which produces the highest concentrations of lactic acid and hydrogen peroxide and is associated with the lowest rates of infection and inflammation.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The Hidden Dangers of Harsh Feminine Washes and Scented Soaps"
 description: "Why conventional soaps, scented sprays, and chemical feminine hygiene products can cause more harm than good — and what the science says about protecting intimate health naturally."
-date: "2026-07-13"
+date: "2026-06-28"
 coverImage: "/uploads/bf%20suma%20photos/Suma%20Self%20Care/Bf%20suma%20femicare%20feminine%20cleanser%20ksh%201,750.jpg"
 productSlug: "bf-suma-femicare-feminine-cleanser"
 category: "Feminine Health"

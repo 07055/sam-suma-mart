@@ -1,7 +1,7 @@
 ---
 title: "Calcium Absorption Science: Why You May Be Getting Less From Your Supplement Than You Think"
 description: "Most people know calcium is essential for bones, but few understand the complex science of calcium absorption — and why the form, timing, and co-nutrients in your supplement matter enormously."
-date: "2026-07-13"
+date: "2026-05-11"
 coverImage: "/uploads/bf%20suma%20photos/sport%20fit/bone%20&%20Joint%20Care/ZaminoCal%E2%84%A2%20Plus%20Capsules%2060%20capsules%20-%20ksh%203,570.jpg"
 productSlug: "zaminocal-plus-capsules-60-capsules"
 category: "Bone Health"
@@ -20,7 +20,7 @@ The science of calcium absorption is remarkably complex, involving multiple acti
 Unlike most minerals, which are absorbed passively through the intestinal wall, calcium requires active, regulated transport. The majority of calcium absorption occurs in the duodenum and upper jejunum of the small intestine through two distinct pathways:
 
 ### Active Transcellular Absorption
-This primary pathway involves calcium-binding proteins (particularly calbindin) that transport calcium across the intestinal cell lining in a controlled, vitamin D-dependent process. When vitamin D levels are adequate, the intestinal cells produce more calbindin, significantly increasing calcium absorption efficiency. When vitamin D is deficient — a condition affecting an estimated 1 billion people worldwide — this active transport pathway is severely compromised, regardless of how much calcium is consumed.
+This primary pathway involves calcium-binding proteins (particularly calbindin) that transport calcium across the intestinal cell lining in a controlled, vitamin D-dependent process. When vitamin D levels are adequate, the intestinal cells produce more calbindin, significantly increasing calcium absorption efficiency. When vitamin D is deficient — a condition that is prevalent worldwide — this active transport pathway is severely compromised, regardless of how much calcium is consumed.
 
 ### Passive Paracellular Absorption
 The secondary pathway involves calcium passing between intestinal cells through concentration-dependent diffusion. This pathway becomes more significant at higher calcium intakes but is inherently less efficient and less regulated than the active pathway. It also means that consuming very high doses of calcium at once does not proportionally increase absorption — the active transport system becomes saturated, and the passive system cannot compensate.
@@ -56,7 +56,7 @@ Several common dietary and lifestyle factors significantly reduce calcium absorp
 
 **Excessive caffeine** increases urinary calcium excretion by a modest but clinically significant amount. Regular heavy coffee consumption (more than 4 cups daily) may require compensatory increases in calcium intake.
 
-**Sodium** increases calcium excretion through the kidneys. For every 2,300 mg of sodium consumed (roughly one teaspoon of salt), approximately 40 mg of calcium is lost in urine.
+**Sodium** increases calcium excretion through the kidneys. High sodium intake increases calcium excretion through the kidneys, meaning that diets rich in salt can gradually deplete calcium stores over time.
 
 ---
 

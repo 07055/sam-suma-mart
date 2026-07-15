@@ -1,7 +1,7 @@
 ---
 title: "Yunzhi Essence and Cellular Health: How Mushroom Compounds Protect Your Body at the Microscopic Level"
 description: "Discover how refined Turkey Tail (Yunzhi) extracts protect cellular integrity through antioxidant activity, DNA repair support, and immune surveillance — the foundations of long-term health."
-date: "2026-07-13"
+date: "2026-05-18"
 coverImage: "/uploads/bf%20suma%20photos/immunity%20builders/Refined%20Yunzhi%20Essence%20-%2060%20capsules%20-ksh%2074,500.jpg"
 productSlug: "refined-yunzhi-essence-60-capsules"
 category: "Cellular Health"

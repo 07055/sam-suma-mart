@@ -1,7 +1,7 @@
 ---
 title: "The Complete Guide to Botanical Feminine Hygiene: Gentle, Effective, and Science-Backed"
 description: "Discover how plant-derived ingredients provide superior feminine hygiene support compared to synthetic alternatives, with a practical guide to building a botanical intimate care routine."
-date: "2026-07-13"
+date: "2026-06-22"
 coverImage: "/uploads/bf%20suma%20photos/Suma%20Self%20Care/Bf%20suma%20femicare%20feminine%20cleanser%20ksh%201,750.jpg"
 productSlug: "bf-suma-femicare-feminine-cleanser"
 category: "Feminine Health"

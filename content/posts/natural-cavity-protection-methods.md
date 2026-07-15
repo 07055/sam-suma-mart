@@ -1,7 +1,7 @@
 ---
 title: "Natural Cavity Protection: How to Strengthen Your Teeth Without Harsh Chemicals"
 description: "Learn how plant-based ingredients and natural minerals protect teeth from decay, remineralize enamel, and support cavity prevention — without relying solely on synthetic fluoride compounds."
-date: "2026-07-13"
+date: "2026-05-03"
 coverImage: "/uploads/bf suma photos/Suma Self Care/dr-ts-toothpaste.jpg"
 productSlug: "dr-ts-toothpaste"
 category: "Oral Health"

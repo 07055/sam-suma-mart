@@ -1,7 +1,7 @@
 ---
 title: "Turkey Tail Mushroom: The Science-Backed Immune Powerhouse You Need to Know"
 description: "Explore the proven science behind Turkey Tail mushroom (Coriolus versicolor), its powerful polysaccharopeptides, and how this ancient fungus supports modern immune health."
-date: "2026-07-13"
+date: "2026-05-31"
 coverImage: "/uploads/bf%20suma%20photos/immunity%20builders/Refined%20Yunzhi%20Essence%20-%2060%20capsules%20-ksh%2074,500.jpg"
 productSlug: "refined-yunzhi-essence-60-capsules"
 category: "Immune Health"
